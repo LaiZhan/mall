@@ -6,21 +6,21 @@
       "name": "哇哈哈",
       "price": 35.91,
       "image": "./src/assets/goods/2.png",
-      "category": "零食广场11111111"
+      "category": "零食广场"
     },
     {
       "id": 2,
       "name": "饼干",
       "price": 35.91,
       "image": "./src/assets/goods/3.png",
-      "category": "零食广场"
+      "category": "饼干"
     },
     {
       "id": 3,
-      "name": "哇哈哈",
+      "name": "膨化薯片",
       "price": 35.91,
       "image": "./src/assets/goods/4.jpg",
-      "category": "零食广场"
+      "category": "膨化薯片"
     },
     {
       "id": 4,
@@ -41,7 +41,7 @@
       "name": "哇哈哈",
       "price": 35.91,
       "image": "./src/assets/goods/7.png",
-      "category": "零食广场"
+      "category": "膨化薯片"
     },
     {
       "id": 7,
