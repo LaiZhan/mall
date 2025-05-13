@@ -1,18 +1,19 @@
 <template>
-  <van-card :title="product.name" :thumb="product.image" :price="product.price" currency="¥" class="product-card">
+  <van-card centered :title="product.name" :thumb="product.image" :price="product.price" currency="¥"
+    class="product-card">
     <template #footer>
       <div class="footer-controls">
         <div v-if="product.quantity > 0" class="quantity-controls">
           <!-- 减号按钮 -->
-          <van-icon name="minus" class="quantity-icon" @click="$emit('decrease-quantity', product)" />
+          <van-button icon="minus" type="success" size="mini" round @click="$emit('decrease-quantity', product)" />
           <!-- 显示数量 -->
           <span class="quantity">{{ product.quantity }}</span>
           <!-- 加号按钮 -->
-          <van-icon name="plus" class="quantity-icon" @click="$emit('increase-quantity', product)" />
+          <van-button icon="plus" type="success" size="mini" round @click="$emit('increase-quantity', product)" />
         </div>
         <div v-else>
           <!-- 加入购物车按钮 -->
-          <van-button type="primary" size="small" @click="$emit('add-to-cart', product)">
+          <van-button type="success" size="small" @click="$emit('add-to-cart', product)">
             加入购物车
           </van-button>
         </div>
@@ -54,12 +55,6 @@ export default {
 .quantity {
   font-size: 16px;
   font-weight: bold;
-}
-
-.quantity-icon {
-  font-size: 20px;
-  color: #1989fa;
-  cursor: pointer;
 }
 
 .van-button {

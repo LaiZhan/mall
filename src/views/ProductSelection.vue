@@ -30,7 +30,7 @@
         <van-icon name="shopping-cart" />
         <span>¥{{ totalPrice.toFixed(2) }}</span>
       </div>
-      <van-button type="danger" @click="showOrderSummary = true">
+      <van-button type="success" @click="showOrderSummary = true">
         去结算({{ cart.length }})
       </van-button>
     </div>
@@ -46,13 +46,18 @@
           <p>购物车为空</p>
         </div>
         <div v-else>
-          <div v-for="item in cart" :key="item.id" class="cart-item">
+          <!-- <div v-for="item in cart" :key="item.id" class="cart-item">
             <img :src="item.image" alt="商品图片" class="cart-item-image" />
             <div class="cart-item-info">
               <p class="cart-item-name">{{ item.name }}</p>
               <p class="cart-item-price">¥{{ item.price }} × {{ item.quantity }}</p>
             </div>
-          </div>
+          </div> -->
+
+          <ProductCard v-for="product in cart" :key="product.id" :product="product" @add-to-cart="handleAddToCart"
+            @increase-quantity="increaseQuantity" @decrease-quantity="decreaseQuantity" />
+
+
         </div>
       </div>
     </van-popup>
@@ -215,6 +220,7 @@ export default {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  width: 100%;
   background-color: #f5f5f5;
 }
 
