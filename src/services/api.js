@@ -1,9 +1,28 @@
 import data from "@/data/data.json";
 
+// 确保数据已正确初始化
+const ensureDataIntegrity = () => {
+  if (!data.cart) {
+    data.cart = [];
+  }
+
+  // 确保所有商品都有quantity属性
+  if (data.products) {
+    data.products.forEach(product => {
+      if (product.quantity === undefined) {
+        product.quantity = 0;
+      }
+    });
+  }
+};
+
+// 立即执行一次确保数据完整性
+ensureDataIntegrity();
+
 export const getCategories = () => {
   return new Promise((resolve) => {
     setTimeout(() => {
-      resolve(data.categories);
+      resolve(data.categories || []);
     }, 200);
   });
 };
@@ -11,7 +30,12 @@ export const getCategories = () => {
 export const getProducts = () => {
   return new Promise((resolve) => {
     setTimeout(() => {
-      resolve(data.products);
+      // 返回前添加quantity属性
+      const products = data.products.map(product => ({
+        ...product,
+        quantity: product.quantity || 0
+      }));
+      resolve(products);
     }, 200);
   });
 };
@@ -20,9 +44,9 @@ export const getCart = () => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve({
-        cart: data.cart,
-        totalPrice: data.cart.reduce(
-          (sum, item) => sum + item.price * item.quantity,
+        cart: data.cart || [],
+        totalPrice: (data.cart || []).reduce(
+          (sum, item) => sum + item.price * (item.quantity || 0),
           0
         ),
       });
