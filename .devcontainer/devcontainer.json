@@ -1,32 +1,34 @@
 {
     "name": "Vue Development Environment", // Name of the development environment
-
     "settings": {
         "terminal.integrated.shell.linux": "/bin/zsh", // Use zsh as the default shell
-        "files.trimTrailingWhitespace": true,         // Automatically trim trailing whitespace
-        "editor.formatOnSave": true,                  // Enable format on save
-        "editor.codeActionsOnSave": {                 // Automatically fix ESLint issues on save
+        "files.trimTrailingWhitespace": true, // Automatically trim trailing whitespace
+        "editor.formatOnSave": true, // Enable format on save
+        "editor.codeActionsOnSave": { // Automatically fix ESLint issues on save
             "source.fixAll.eslint": true
         }
     },
-
     "extensions": [
-        "esbenp.prettier-vscode",          // Prettier for code formatting
-        "dbaeumer.vscode-eslint",          // ESLint for linting
-        "Vue.volar",                       // Volar for Vue 3 support
-        "ms-vscode.vscode-typescript-next",// Latest TypeScript support
-        "formulahendry.auto-rename-tag",   // Auto rename HTML/JSX tags
-        "formulahendry.auto-close-tag"     // Auto close HTML/JSX tags
+        "maattdd.gitless",
+        "mhutchie.git-graph",
+        "donjayamanne.githistory",
+        "esbenp.prettier-vscode", // Prettier for code formatting
+        "dbaeumer.vscode-eslint", // ESLint for linting
+        "Vue.volar", // Volar for Vue 3 support
+        "ms-vscode.vscode-typescript-next", // Latest TypeScript support
+        "formulahendry.auto-rename-tag", // Auto rename HTML/JSX tags
+        "formulahendry.auto-close-tag" // Auto close HTML/JSX tags
     ],
-
-    "forwardPorts": [8080, 5173], // Common ports for Vue development servers
-
+    "forwardPorts": [
+        8080,
+        5173
+    ], // Common ports for Vue development servers
     "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind", // Mount the local workspace
     "workspaceFolder": "/workspace", // Set the default workspace folder inside the container
-
     "postCreateCommand": "npm install", // Automatically install dependencies after container creation
-
     "dockerFile": "Dockerfile", // Specify the Dockerfile to use for the container
-
-    "runArgs": ["--name", "mall-dev-container"] // Force the container name to be "mall-container"
+    "runArgs": [
+        "--name",
+        "mall-dev-container"
+    ] // Force the container name to be "mall-container"
 }
