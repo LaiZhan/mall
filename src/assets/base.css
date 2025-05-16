@@ -84,3 +84,35 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  .van-button {
+    height: 40px;
+    line-height: 38px;
+    font-size: 16px;
+  }
+
+  .van-button--small {
+    height: 32px;
+    padding: 0 12px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  .van-search__content {
+    height: 40px;
+  }
+
+  .van-field__control {
+    font-size: 16px;
+  }
+}
