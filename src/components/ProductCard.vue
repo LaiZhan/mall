@@ -166,6 +166,7 @@ export default {
   font-size: 14px;
   min-width: 20px;
   text-align: center;
+  color: black
 }
 
 .add-btn {
