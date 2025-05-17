@@ -74,7 +74,8 @@
     </van-popup>
 
     <!-- 订单弹出层 -->
-    <van-dialog v-model:show="showOrderSummary" title="订单详情" show-cancel-button @cancel="showOrderSummary = false">
+    <van-dialog v-model:show="showOrderSummary" title="订单详情" @confirm="copyOrderInfo" confirm-button-text="确认订单"
+      show-cancel-button @cancel="showOrderSummary = false">
       <div class="order-summary">
         <div v-for="item in cart" :key="item.id" class="order-item">
           <div class="order-item-header">
@@ -99,6 +100,7 @@
 
 <script>
 import { ref, computed, onMounted, watch } from 'vue';
+import { Toast } from 'vant';
 import { getCategories, getProducts, getCart, addToCart, clearCart } from '@/services/api';
 import ProductCard from '@/components/ProductCard.vue';
 
@@ -233,6 +235,49 @@ export default {
       cart.value.reduce((sum, item) => sum + item.price * (item.quantity || 0), 0)
     );
 
+    const copyOrderInfo = () => {
+      // 生成格式化的订单信息
+      const orderInfo = formatOrderInfo();
+
+      // 复制到剪贴板
+      navigator.clipboard.writeText(orderInfo)
+        .then(() => {
+          // 显示成功提示
+          // Toast({
+          //   message: '订单信息已复制，可粘贴到微信',
+          //   type: 'success'
+          // });
+          // 关闭订单弹窗
+          showOrderSummary.value = false;
+        })
+        .catch(err => {
+          console.error('复制失败:', err);
+          // Toast({
+          //   message: '复制失败，请手动复制',
+          //   type: 'fail'
+          // });
+        });
+    };
+
+    // 格式化订单信息
+    const formatOrderInfo = () => {
+      let result = '==== 订单信息 ====\n\n';
+
+      // 添加每个商品信息
+      cart.value.forEach(item => {
+        result += `商品ID: ${item.id}\n`;
+        result += `商品名称: ${item.name}\n`;
+        result += `数量: ${item.quantity}\n`;
+        result += `单价: ¥${item.price}\n`;
+        result += `小计: ¥${(item.price * item.quantity).toFixed(2)}\n\n`;
+      });
+
+      // 添加总价
+      result += `==== 总计: ¥${totalPrice.value.toFixed(2)} ====`;
+
+      return result;
+    };
+
     return {
       searchQuery,
       activeCategory,
@@ -249,7 +294,8 @@ export default {
       resetSearch,
       showCart,
       showOrderSummary,
-      isLoading // 返回加载状态
+      isLoading, // 返回加载状态
+      copyOrderInfo
     };
   },
 };
