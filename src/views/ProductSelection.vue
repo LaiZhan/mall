@@ -60,7 +60,13 @@
     <van-popup v-model:show="showCart" position="bottom" class="cart-popup">
       <div class="cart-popup-header">
         <h3>购物车</h3>
-        <van-icon name="close" size="20" @click="showCart = false" />
+        <div class="cart-popup-actions">
+          <van-button v-if="cart.length > 0" type="danger" size="small" plain class="clear-cart-btn"
+            @click="handleClearCart">
+            清空购物车
+          </van-button>
+          <van-icon name="close" size="20" @click="showCart = false" />
+        </div>
       </div>
       <div class="cart-popup-content">
         <div v-if="cart.length === 0" class="empty-cart">
@@ -175,6 +181,26 @@ export default {
         products.value = [];
       } finally {
         isLoading.value = false;
+      }
+    };
+
+    // 清空购物车
+    const handleClearCart = async () => {
+      try {
+        await clearCart(); // 调用 API 清空购物车
+        cart.value = []; // 本地状态也清空
+
+        // 重置所有产品的数量为0
+        products.value.forEach(product => {
+          if (product.quantity !== undefined) {
+            product.quantity = 0;
+          }
+        });
+
+        // 可以添加一个提示信息告知用户购物车已清空
+        console.log('购物车已清空');
+      } catch (error) {
+        console.error('清空购物车失败:', error);
       }
     };
 
@@ -295,7 +321,8 @@ export default {
       showCart,
       showOrderSummary,
       isLoading, // 返回加载状态
-      copyOrderInfo
+      copyOrderInfo,
+      handleClearCart
     };
   },
 };
@@ -559,5 +586,22 @@ export default {
   width: 90%;
   margin: auto;
   top: 50%
+}
+</style>
+
+<style>
+.cart-popup-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.clear-cart-btn {
+  font-size: 12px;
+}
+
+.clear-cart-btn.van-button--danger {
+  color: #ee0a24;
+  border-color: #ee0a24;
 }
 </style>
