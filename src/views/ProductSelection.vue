@@ -105,6 +105,9 @@
     <!-- 订单信息文本弹窗，无关闭按钮，5秒自动关闭 -->
     <van-dialog v-model:show="showOrderText" title="订单信息" :show-cancel-button="true" :show-confirm-button="false"
       close-on-click-overlay :close-on-popstate="true" class="order-text-dialog">
+      <div class="order-text-tip">
+        请手动复制一下订单信息，并粘贴到微信
+      </div>
       <pre class="order-text-pre">{{ copiedOrderText }}</pre>
     </van-dialog>
   </div>
@@ -665,5 +668,15 @@ export default {
 .order-text-dialog .van-dialog {
   border-radius: 16px;
   max-width: 95vw;
+}
+
+.order-text-tip {
+  /* text-align: center; */
+  color: #faad14;
+  font-size: 12px;
+  margin: 12px 16px 0 16px;
+  padding-bottom: 4px;
+  letter-spacing: 0.5px;
+  font-style: italic;
 }
 </style>
