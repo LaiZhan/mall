@@ -1,68 +1,4692 @@
 {
-  "categories": ["零食广场", "饼干", "膨化薯片"],
+  "categories": [
+    "饮料",
+    "槟榔",
+    "酒类",
+    "烟",
+    "日用",
+    "零食",
+    "雪糕",
+    "功能性饮料",
+    "薯片",
+    "糖类",
+    "纯净水",
+    "临时类别",
+    "棒棒冰",
+    "面（粉）类"
+  ],
   "products": [
     {
-      "id": 1,
-      "name": "哇哈哈",
-      "price": 35.91,
-      "image": "/goods/2.png",
-      "category": "零食广场"
+      "id": "6902083890681",
+      "name": "AD奶220ml*24瓶整件",
+      "shortName": "娃哈哈AD奶220ml",
+      "price": 43.0,
+      "category": "饮料",
+      "image": "/goods/6902083890681.png"
     },
     {
-      "id": 2,
-      "name": "饼干",
-      "price": 35.91,
-      "image": "/goods/3.png",
-      "category": "饼干"
+      "id": "8859015700168",
+      "name": "if椰子水350ml",
+      "shortName": "if椰子水350ml",
+      "price": 6.0,
+      "category": "饮料",
+      "image": "/goods/8859015700168.png"
     },
     {
-      "id": 3,
-      "name": "膨化薯片",
-      "price": 35.91,
-      "image": "/goods/4.jpg",
-      "category": "膨化薯片"
+      "id": "6973343328060",
+      "name": "一口王者枸杞槟榔",
+      "shortName": "一口王者枸杞槟榔",
+      "price": 10.0,
+      "category": "槟榔",
+      "image": "/goods/6973343328060.jpg"
     },
     {
-      "id": 4,
-      "name": "哇哈哈",
-      "price": 35.91,
-      "image": "/goods/5.png",
-      "category": "零食广场"
+      "id": "6971232461201",
+      "name": "一担粮小棕瓶42度251ml",
+      "shortName": "一担粮小棕瓶42度251ml",
+      "price": 13.0,
+      "category": "酒类",
+      "image": "/goods/6971232461201.png"
     },
     {
-      "id": 5,
-      "name": "哇哈哈",
-      "price": 35.91,
-      "image": "/goods/6.png",
-      "category": "零食广场"
+      "id": "6971232460471",
+      "name": "一担粮金盖ml",
+      "shortName": "一担粮金盖ml",
+      "price": 38.0,
+      "category": "酒类",
+      "image": "/goods/6971232460471.png"
     },
     {
-      "id": 6,
-      "name": "哇哈哈",
-      "price": 35.91,
-      "image": "/goods/7.png",
-      "category": "膨化薯片"
+      "id": "6976509790626",
+      "name": "一担粮黑盖480ml",
+      "shortName": "一担粮黑盖480ml",
+      "price": 20.0,
+      "category": "酒类",
+      "image": "/goods/6976509790626.png"
     },
     {
-      "id": 7,
-      "name": "哇哈哈",
-      "price": 35.91,
-      "image": "/goods/8.jpg",
-      "category": "零食广场"
+      "id": "6901028211345",
+      "name": "七匹狼中支烟（纯境）",
+      "shortName": "七匹狼中支烟（纯境）",
+      "price": 20.0,
+      "category": "烟",
+      "image": "/goods/6901028211345.jpg"
     },
     {
-      "id": 8,
-      "name": "哇哈哈",
-      "price": 35.91,
-      "image": "/goods/9.png",
-      "category": "零食广场"
+      "id": "6903244370974",
+      "name": "七度空间加长日用",
+      "shortName": "七度空间加长日用",
+      "price": 9.5,
+      "category": "日用",
+      "image": "/goods/6903244370974.png"
     },
     {
-      "id": 9,
-      "name": "哇哈哈",
-      "price": 35.91,
-      "image": "/goods/10.png",
-      "category": "零食广场"
+      "id": "6903244370998",
+      "name": "七度空间少女系列卫生巾超柔纯棉夜用338mm*8片",
+      "shortName": "七度空间少女系列卫生巾超柔纯棉夜用338mm*8片",
+      "price": 8.5,
+      "category": "日用",
+      "image": "/goods/6903244370998.png"
+    },
+    {
+      "id": "6903244373043",
+      "name": "七度空间少女系列甜睡棉卫生巾420cm",
+      "shortName": "七度空间少女系列甜睡棉卫生巾420cm",
+      "price": 9.0,
+      "category": "日用",
+      "image": "/goods/6903244373043.png"
+    },
+    {
+      "id": "6903244370950",
+      "name": "七度空间超薄日用10片",
+      "shortName": "七度空间超薄日用10片",
+      "price": 8.5,
+      "category": "日用",
+      "image": "/goods/6903244370950.png"
+    },
+    {
+      "id": "6957449200383",
+      "name": "三晟唱片原味手撕包100g",
+      "shortName": "三晟唱片原味手撕包100g",
+      "price": 3.0,
+      "category": "零食",
+      "image": "/goods/6957449200383.png"
+    },
+    {
+      "id": "6957449200376",
+      "name": "三晟唱片红豆味手撕包100g",
+      "shortName": "三晟唱片红豆味手撕包100g",
+      "price": 3.0,
+      "category": "零食",
+      "image": "/goods/6957449200376.png"
+    },
+    {
+      "id": "6932002061809",
+      "name": "丘氏椰子灰80g",
+      "shortName": "丘氏椰子灰80g",
+      "price": 6.0,
+      "category": "雪糕",
+      "image": "/goods/6932002061809.jpg"
+    },
+    {
+      "id": "6927119004870",
+      "name": "东北大板一亩瓜田",
+      "shortName": "红宝石一亩瓜田香瓜口味雪糕",
+      "price": 6.0,
+      "category": "雪糕",
+      "image": "/goods/6927119004870.png"
+    },
+    {
+      "id": "6927119004788",
+      "name": "东北大板冰山软巧",
+      "shortName": "东北大板冰山软巧",
+      "price": 6.0,
+      "category": "雪糕",
+      "image": "/goods/6927119004788.png"
+    },
+    {
+      "id": "6927119002913",
+      "name": "东北大板原味奶",
+      "shortName": "东北大板原味奶",
+      "price": 4.0,
+      "category": "雪糕",
+      "image": "/goods/6927119002913.png"
+    },
+    {
+      "id": "6927119005594",
+      "name": "东北大板小芒人芒果口味雪糕",
+      "shortName": "东北大板小芒人芒果口味雪糕",
+      "price": 6.0,
+      "category": "雪糕",
+      "image": "/goods/6927119005594.png"
+    },
+    {
+      "id": "6927119003606",
+      "name": "东北大板巧克力",
+      "shortName": "东北大板巧克力",
+      "price": 4.0,
+      "category": "雪糕",
+      "image": "/goods/6927119003606.png"
+    },
+    {
+      "id": "6927119003194",
+      "name": "东北大板抹茶脆皮",
+      "shortName": "东北大板抹茶脆皮",
+      "price": 6.0,
+      "category": "雪糕",
+      "image": "/goods/6927119003194.png"
+    },
+    {
+      "id": "6927119001411",
+      "name": "东北大板晴王绿茉莉香杯",
+      "shortName": "东北大板晴王绿茉莉香杯",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/goods/6927119001411.png"
+    },
+    {
+      "id": "6927119001183",
+      "name": "东北大板森林浆果",
+      "shortName": "东北大板森林浆果",
+      "price": 6.0,
+      "category": "雪糕",
+      "image": "/goods/6927119001183.png"
+    },
+    {
+      "id": "6927119004351",
+      "name": "东北大板流心磨巧巧力冰淇淋",
+      "shortName": "东北大板流心磨巧巧力冰淇淋",
+      "price": 6.0,
+      "category": "雪糕",
+      "image": "/goods/6927119004351.jpg"
+    },
+    {
+      "id": "6927119002784",
+      "name": "东北大板玫瑰天然杯红",
+      "shortName": "东北大板玫瑰天然杯红",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/goods/6927119002784.png"
+    },
+    {
+      "id": "6927119002999",
+      "name": "东北大板经典榴莲脆皮",
+      "shortName": "东北大板经典榴莲脆皮",
+      "price": 6.0,
+      "category": "雪糕",
+      "image": "/goods/6927119002999.png"
+    },
+    {
+      "id": "6927119003781",
+      "name": "东北大板草原奶",
+      "shortName": "东北大板草原奶",
+      "price": 4.0,
+      "category": "雪糕",
+      "image": "/goods/6927119003781.png"
+    },
+    {
+      "id": "6927119001015",
+      "name": "东北大板酸奶口味",
+      "shortName": "东北大板酸奶口味",
+      "price": 4.0,
+      "category": "雪糕",
+      "image": "/goods/6927119001015.jpg"
+    },
+    {
+      "id": "6927119000056",
+      "name": "东北大板野生蓝莓雪糕",
+      "shortName": "东北大板野生蓝莓雪糕",
+      "price": 6.0,
+      "category": "雪糕",
+      "image": "/goods/6927119000056.png"
+    },
+    {
+      "id": "6921168558032",
+      "name": "东方树叶乌龙茶500ml",
+      "shortName": "东方树叶乌龙茶500ml",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/goods/6921168558032.png"
+    },
+    {
+      "id": "6921168599905",
+      "name": "东方树叶乌龙茶900ml",
+      "shortName": "东方树叶乌龙茶900ml",
+      "price": 7.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168558018",
+      "name": "东方树叶绿茶500ml",
+      "shortName": "东方树叶绿茶500ml",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168558049",
+      "name": "东方树叶茉莉花茶500ml",
+      "shortName": "东方树叶茉莉花茶500ml",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168598427",
+      "name": "东方树叶茉莉花茶900ml",
+      "shortName": "东方树叶茉莉花茶900ml",
+      "price": 7.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168598649",
+      "name": "东方树叶青柑普洱900ml",
+      "shortName": "东方树叶青柑普洱900ml",
+      "price": 7.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168596348",
+      "name": "东方树叶青柑普洱茶500ml",
+      "shortName": "东方树叶青柑普洱茶500ml",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6934502301812",
+      "name": "东鹏大咖生椰拿铁500ml",
+      "shortName": "东鹏大咖生椰拿铁500ml",
+      "price": 7.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6934502301850",
+      "name": "东鹏特饮维生素功能饮料500ml",
+      "shortName": "东鹏特饮维生素功能饮料500ml",
+      "price": 5.0,
+      "category": "功能性饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6934502301959",
+      "name": "东鹏补水啦柠檬味555ml",
+      "shortName": "东鹏补水啦柠檬味555ml",
+      "price": 4.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6934502302277",
+      "name": "东鹏补水啦柠檬电解质饮料1L",
+      "shortName": "东鹏补水啦柠檬电解质饮料1L",
+      "price": 6.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6934502301546",
+      "name": "东鹏补水液1L西柚味",
+      "shortName": "东鹏补水液1L西柚味",
+      "price": 6.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6934502303243",
+      "name": "东鹏西柚茉莉果汁茶饮料1L",
+      "shortName": "东鹏西柚茉莉果汁茶饮料1L",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909131181234",
+      "name": "中国劲酒35258ml",
+      "shortName": "中国劲酒35°258ml",
+      "price": 30.0,
+      "category": "酒类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6927573123513",
+      "name": "中沃体质能量维生素饮料600ml",
+      "shortName": "中沃体质能量维生素饮料600ml",
+      "price": 5.0,
+      "category": "功能性饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6927573108367",
+      "name": "中沃柠檬味苏打水500ml",
+      "shortName": "中沃柠檬味苏打水500ml",
+      "price": 4.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6927573108930",
+      "name": "中沃柠檬味苏打饮料380ml",
+      "shortName": "中沃柠檬味苏打饮料380ml",
+      "price": 3.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6927573137763",
+      "name": "中沃苏打水750ml瓶装",
+      "shortName": "中沃苏打水750ml瓶装",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924743915091",
+      "name": "乐事墨西哥鸡汁番茄味40g袋装",
+      "shortName": "乐事墨西哥鸡汁番茄味40g袋装",
+      "price": 3.5,
+      "category": "薯片",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924743919242",
+      "name": "乐事墨西哥鸡汁番茄味薯片70g",
+      "shortName": "乐事墨西哥鸡汁番茄味薯片70g",
+      "price": 6.5,
+      "category": "薯片",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924743915121",
+      "name": "乐事天然薯片黄瓜味40g",
+      "shortName": "乐事天然薯片黄瓜味40g",
+      "price": 3.5,
+      "category": "薯片",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924743927865",
+      "name": "乐事红烧肉味90G",
+      "shortName": "乐事红烧肉味90G",
+      "price": 8.0,
+      "category": "薯片",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924743919235",
+      "name": "乐事红烩味薯片70g",
+      "shortName": "乐事红烩味薯片70g",
+      "price": 6.5,
+      "category": "薯片",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924743919211",
+      "name": "乐事经典原味薯片70g",
+      "shortName": "乐事经典原味薯片70g",
+      "price": 6.5,
+      "category": "薯片",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924743927933",
+      "name": "乐事罐装薯片鲜浓番茄味90g",
+      "shortName": "乐事罐装薯片鲜浓番茄味90g",
+      "price": 8.0,
+      "category": "薯片",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924743927940",
+      "name": "乐事翡翠黄瓜味90G",
+      "shortName": "乐事翡翠黄瓜味90G",
+      "price": 8.0,
+      "category": "薯片",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924743927858",
+      "name": "乐事薯片原味90g",
+      "shortName": "乐事薯片原味90g",
+      "price": 8.0,
+      "category": "薯片",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924743927902",
+      "name": "乐事薯片烤肉味罐装90g*24",
+      "shortName": "乐事薯片烤肉味罐装90g*24",
+      "price": 8.0,
+      "category": "薯片",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "20106924743919259",
+      "name": "乐事黄瓜味70g",
+      "shortName": "乐事黄瓜味70g",
+      "price": 6.5,
+      "category": "薯片",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028045902",
+      "name": "云烟(软珍品)",
+      "shortName": "云烟(软珍品)",
+      "price": 23.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028311151",
+      "name": "云烟软紫",
+      "shortName": "云烟软紫",
+      "price": 11.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028339940",
+      "name": "云烟（细支云龙）",
+      "shortName": "云烟（细支云龙）",
+      "price": 15.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907201281259",
+      "name": "五羊冰雪杯",
+      "shortName": "五羊冰雪杯",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907201280597",
+      "name": "五羊牌桂香雪梨雪糕",
+      "shortName": "五羊牌桂香雪梨雪糕",
+      "price": 4.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907201280122",
+      "name": "五羊牌甜筒哈蜜瓜味",
+      "shortName": "五羊牌甜筒哈蜜瓜味",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907201280153",
+      "name": "五羊牌甜筒榴莲",
+      "shortName": "五羊牌甜筒榴莲",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907201280542",
+      "name": "五羊牌菠萝冰",
+      "shortName": "五羊牌菠萝冰",
+      "price": 2.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907201280658",
+      "name": "五羊牌飞鱼香草味脆皮雪糕",
+      "shortName": "五羊牌飞鱼香草味脆皮雪糕",
+      "price": 4.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907201280139",
+      "name": "五羊甜筒巧克力味",
+      "shortName": "五羊甜筒巧克力味",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907201280108",
+      "name": "五羊甜筒香芋味",
+      "shortName": "五羊甜筒香芋味",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907201280665",
+      "name": "五羊甜筒香草",
+      "shortName": "五羊甜筒香草",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907201281150",
+      "name": "五羊红豆栗子",
+      "shortName": "五羊红豆栗子",
+      "price": 4.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907992827605",
+      "name": "伊利克力棒",
+      "shortName": "伊利克力棒",
+      "price": 2.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907992821832",
+      "name": "伊利冰工厂升级版山楂爽棒冰70g",
+      "shortName": "伊利冰工厂升级版山楂爽棒冰70g",
+      "price": 2.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907992824703",
+      "name": "伊利冰工厂炫白桃",
+      "shortName": "伊利冰工厂炫白桃",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907992822921",
+      "name": "伊利冰工厂蜜桃",
+      "shortName": "伊利冰工厂蜜桃",
+      "price": 2.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907992400754",
+      "name": "伊利原味牛奶片16g",
+      "shortName": "伊利原味牛奶片16g",
+      "price": 2.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907992824697",
+      "name": "伊利四个圈",
+      "shortName": "伊利四个圈",
+      "price": 4.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907992823096",
+      "name": "伊利大布丁",
+      "shortName": "伊利大布丁",
+      "price": 2.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907992828800",
+      "name": "伊利奶昔杯",
+      "shortName": "伊利奶昔杯",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907992823331",
+      "name": "伊利巧丝绒",
+      "shortName": "伊利巧丝绒",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907992824567",
+      "name": "伊利巧乐兹乐滋姜撞奶+蜜桃乌龙85g",
+      "shortName": "伊利巧乐兹乐滋姜撞奶+蜜桃乌龙85g",
+      "price": 6.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907992827537",
+      "name": "伊利巧乐兹焦糖布丁+舒芙蕾口味脆筒冰淇淋85g",
+      "shortName": "伊利巧乐兹焦糖布丁+舒芙蕾口味脆筒冰淇淋85g",
+      "price": 6.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907992828848",
+      "name": "伊利巧乐兹脆筒焦糖烤",
+      "shortName": "伊利巧乐兹脆筒焦糖烤",
+      "price": 6.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907992826486",
+      "name": "伊利巧乐兹脆筒黑巧",
+      "shortName": "伊利巧乐兹脆筒黑巧",
+      "price": 6.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907992822877",
+      "name": "伊利巧乐兹香草口味脆筒",
+      "shortName": "伊利巧乐兹香草口味脆筒",
+      "price": 6.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907992822747",
+      "name": "伊利巧恋果",
+      "shortName": "伊利巧恋果",
+      "price": 3.5,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907992822723",
+      "name": "伊利巧脆棒",
+      "shortName": "伊利巧脆棒",
+      "price": 3.5,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907992828053",
+      "name": "伊利心情棒冰",
+      "shortName": "伊利心情棒冰",
+      "price": 2.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907992631240",
+      "name": "伊利牛奶片草莓味",
+      "shortName": "伊利牛奶片草莓味",
+      "price": 2.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907992827360",
+      "name": "伊利甄稀杯巧克力冰淇淋",
+      "shortName": "伊利甄稀杯巧克力冰淇淋",
+      "price": 10.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907992822075",
+      "name": "伊利甄稀杯香草味冰淇淋",
+      "shortName": "伊利甄稀杯香草味冰淇淋",
+      "price": 10.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907992825588",
+      "name": "伊利甄稀葡萄杯",
+      "shortName": "伊利甄稀葡萄杯",
+      "price": 10.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907992827209",
+      "name": "伊利芋泥冰麻薯",
+      "shortName": "伊利芋泥冰麻薯",
+      "price": 6.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907992828657",
+      "name": "伊利苦咖啡搭子",
+      "shortName": "伊利苦咖啡搭子",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907922810263",
+      "name": "伊利苦咖啡雪糕",
+      "shortName": "伊利苦咖啡雪糕",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907992810263",
+      "name": "伊利苦咖啡雪糕",
+      "shortName": "伊利苦咖啡雪糕",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907992822761",
+      "name": "伊利香奶棒",
+      "shortName": "伊利香奶棒",
+      "price": 3.5,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907992826790",
+      "name": "伊利香草味冰麻薯",
+      "shortName": "伊利香草味冰麻薯",
+      "price": 6.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6927573136070",
+      "name": "体质能量维生素原味饮料1L",
+      "shortName": "体质能量维生素原味饮料1L",
+      "price": 8.0,
+      "category": "功能性饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6927573143351",
+      "name": "体质能量血橙菠萝1L",
+      "shortName": "体质能量血橙菠萝1L",
+      "price": 8.0,
+      "category": "功能性饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6972853630014",
+      "name": "光明大白兔雪糕65g",
+      "shortName": "光明大白兔雪糕65g",
+      "price": 7.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168520015",
+      "name": "农夫山泉1.5L",
+      "shortName": "农夫山泉1.5L",
+      "price": 3.0,
+      "category": "纯净水",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168593521",
+      "name": "农夫山泉2L",
+      "shortName": "农夫山泉2L",
+      "price": 4.0,
+      "category": "纯净水",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168509256",
+      "name": "农夫山泉550ml",
+      "shortName": "农夫山泉550ml",
+      "price": 2.0,
+      "category": "纯净水",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168502066",
+      "name": "农夫山泉550ml*12",
+      "shortName": "农夫山泉550ml",
+      "price": 12.8,
+      "category": "纯净水",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168598113",
+      "name": "农夫山泉天然水6L",
+      "shortName": "农夫山泉天然水6L",
+      "price": 10.0,
+      "category": "纯净水",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168561308",
+      "name": "农夫山泉天然矿泉水380ml",
+      "shortName": "农夫山泉天然矿泉水380ml",
+      "price": 2.0,
+      "category": "纯净水",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168504022",
+      "name": "农夫山泉尖叫纤维饮料运动盖550ml",
+      "shortName": "农夫山泉尖叫纤维饮料运动盖550ml",
+      "price": 5.0,
+      "category": "功能性饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168500970",
+      "name": "农夫山泉水溶C西柚汁445ml",
+      "shortName": "农夫山泉水溶C西柚汁445ml",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168559244",
+      "name": "农夫山泉水溶C青皮桔味445ml",
+      "shortName": "农夫山泉水溶C青皮桔味445ml",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168594054",
+      "name": "农夫山泉矿泉水桶装12.9L",
+      "shortName": "农夫山泉矿泉水桶装12.9L",
+      "price": 22.0,
+      "category": "纯净水",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168594993",
+      "name": "农夫山泉苏打水白桃味410ml",
+      "shortName": "农夫山泉苏打水白桃味410ml",
+      "price": 4.0,
+      "category": "纯净水",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168594467",
+      "name": "农夫茶柠檬红茶900ml",
+      "shortName": "农夫茶π柠檬红茶900ml",
+      "price": 7.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6940032700537",
+      "name": "冰丰五好学生杯",
+      "shortName": "冰丰五好学生杯",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6940032700186",
+      "name": "冰丰果莎莎草莓雪糕70g",
+      "shortName": "冰丰果莎莎草莓雪糕70g",
+      "price": 1.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6940032700179",
+      "name": "冰丰果莎莎葡萄70g",
+      "shortName": "冰丰果莎莎葡萄70g",
+      "price": 1.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028217118",
+      "name": "利群西湖恋细支97S",
+      "shortName": "利群西湖恋细支97S",
+      "price": 23.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028118170",
+      "name": "利群（新版）",
+      "shortName": "利群（新版）",
+      "price": 18.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909131169201",
+      "name": "劲牌中国劲酒保健酒125ml",
+      "shortName": "劲牌中国劲酒保健酒125ml",
+      "price": 16.0,
+      "category": "酒类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909131280647",
+      "name": "劲牌中国劲酒保健酒520ml",
+      "shortName": "劲牌中国劲酒保健酒520ml",
+      "price": 55.0,
+      "category": "酒类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909493632443",
+      "name": "千层雪棒香草味",
+      "shortName": "千层雪棒香草味",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901826807641",
+      "name": "南孚七号电池碱性挂卡7号",
+      "shortName": "南孚七号电池碱性挂卡7号",
+      "price": 2.5,
+      "category": "临时类别",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901826817237",
+      "name": "南孚聚能环3代碳性电池LR6-5",
+      "shortName": "南孚聚能环3代碳性电池LR6-5",
+      "price": 2.5,
+      "category": "临时类别",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028001618",
+      "name": "双喜硬经典1906香烟",
+      "shortName": "双喜硬经典1906香烟",
+      "price": 17.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6928804011760",
+      "name": "可口可乐汽水600ml",
+      "shortName": "可口可乐汽水600ml",
+      "price": 3.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909493105893",
+      "name": "可爱多棒棒流心脆巧克力",
+      "shortName": "可爱多棒棒流心脆巧克力",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6970903432168",
+      "name": "君仔劲爆小辣棒123g",
+      "shortName": "君仔劲爆小辣棒123g",
+      "price": 3.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6970903432137",
+      "name": "君仔香辣老丝饥123g",
+      "shortName": "君仔香辣老丝饥123g",
+      "price": 3.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6920907810707",
+      "name": "呀土豆薯条蜂蜜黄油味70G",
+      "shortName": "呀土豆薯条蜂蜜黄油味70G",
+      "price": 5.5,
+      "category": "薯片",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6920907810684",
+      "name": "呀土豆蜂蜜黄油薯片40g",
+      "shortName": "呀土豆蜂蜜黄油薯片40g",
+      "price": 3.5,
+      "category": "薯片",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6978162300006",
+      "name": "和气人生",
+      "shortName": "和气人生",
+      "price": 12.0,
+      "category": "槟榔",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909493105480",
+      "name": "和路雪CORNETTO迷你甜筒苹果香草口味冰淇淋套8X300",
+      "shortName": "和路雪CORNETTO迷你甜筒苹果香草口味冰淇淋套8X300",
+      "price": 19.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909493102199",
+      "name": "和路雪冰冰西瓜冰棍",
+      "shortName": "和路雪冰冰西瓜冰棍",
+      "price": 3.5,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909493103370",
+      "name": "和路雪千层雪棒巧克力慕斯",
+      "shortName": "和路雪千层雪棒巧克力慕斯",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909493102359",
+      "name": "和路雪千层雪棒抹茶",
+      "shortName": "和路雪千层雪棒抹茶",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909493100720",
+      "name": "和路雪千层雪棒白桃",
+      "shortName": "和路雪千层雪棒白桃",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909493401025",
+      "name": "和路雪可爱多巧克力口味",
+      "shortName": "和路雪可爱多巧克力口味",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909493400998",
+      "name": "和路雪可爱多甜筒草莓",
+      "shortName": "和路雪可爱多甜筒草莓",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909493401032",
+      "name": "和路雪可爱多香草口味",
+      "shortName": "和路雪可爱多香草口味",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909493105008",
+      "name": "和路雪威化夹心香奶",
+      "shortName": "和路雪威化夹心香奶",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909493200505",
+      "name": "和路雪梦龙太妃榛子",
+      "shortName": "和路雪梦龙太妃榛子",
+      "price": 10.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909493200741",
+      "name": "和路雪梦龙抹茶口味冰淇淋",
+      "shortName": "和路雪梦龙抹茶口味冰淇淋",
+      "price": 10.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909493200208",
+      "name": "和路雪梦龙松露巧克力",
+      "shortName": "和路雪梦龙松露巧克力",
+      "price": 10.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909493101918",
+      "name": "和路雪梦龙浓郁黑巧克力",
+      "shortName": "和路雪梦龙浓郁黑巧克力",
+      "price": 10.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909493104902",
+      "name": "和路雪梦龙草莓奶冻",
+      "shortName": "和路雪梦龙草莓奶冻",
+      "price": 10.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909493100232",
+      "name": "和路雪梦龙车厘子樱花",
+      "shortName": "和路雪梦龙车厘子樱花",
+      "price": 10.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909493200277",
+      "name": "和路雪梦龙香草口味冰淇淋",
+      "shortName": "和路雪梦龙香草口味冰淇淋",
+      "price": 10.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909493104926",
+      "name": "和路雪生椰拿铁口味冰淇淋",
+      "shortName": "和路雪生椰拿铁口味冰淇淋",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909493800453",
+      "name": "和路雪绿舌头",
+      "shortName": "和路雪绿舌头",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909493104414",
+      "name": "和路雪绿豆乳雪糕",
+      "shortName": "和路雪绿豆乳雪糕",
+      "price": 4.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909493105848",
+      "name": "和路雪脆皮咖啡雪糕",
+      "shortName": "和路雪脆皮咖啡雪糕",
+      "price": 4.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909493400240",
+      "name": "和路雪迷你可爱多甜筒蓝莓草莓",
+      "shortName": "和路雪迷你可爱多甜筒蓝莓草莓",
+      "price": 19.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909493400233",
+      "name": "和路雪迷你可爱多甜筒香草巧克力",
+      "shortName": "和路雪迷你可爱多甜筒香草巧克力",
+      "price": 19.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909493400257",
+      "name": "和路雪迷你可爱多芒果酸奶",
+      "shortName": "和路雪迷你可爱多芒果酸奶",
+      "price": 19.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6909493105831",
+      "name": "和路雪陈皮红豆沙",
+      "shortName": "和路雪陈皮红豆沙",
+      "price": 3.5,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "3415581139181",
+      "name": "哈根达斯夏威夷口味冰淇淋",
+      "shortName": "哈根达斯夏威夷口味冰淇淋",
+      "price": 32.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "074570022021",
+      "name": "哈根达斯草莓味冰淇淋",
+      "shortName": "哈根达斯草莓味冰淇淋",
+      "price": 32.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "074570002023",
+      "name": "哈根达斯香草味冰淇淋",
+      "shortName": "哈根达斯香草味冰淇淋",
+      "price": 32.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901180942286",
+      "name": "嘉士利九州曲奇饼干195g",
+      "shortName": "嘉士利九州曲奇饼干195g",
+      "price": 5.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901180381986",
+      "name": "嘉士利可可夹心饼干159g",
+      "shortName": "嘉士利可可夹心饼干159g",
+      "price": 5.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901180337884",
+      "name": "嘉士利威化饼干/巧克力味115g",
+      "shortName": "嘉士利威化饼干/巧克力味115g",
+      "price": 4.5,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901180337785",
+      "name": "嘉士利威化饼干椰味115g",
+      "shortName": "嘉士利威化饼干椰味115g",
+      "price": 4.5,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901180905984",
+      "name": "嘉士利早餐饼干牛奶口味167g",
+      "shortName": "嘉士利早餐饼干牛奶口味167g",
+      "price": 4.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901180915785",
+      "name": "嘉士利草莓味果酱夹心饼93g",
+      "shortName": "嘉士利草莓味果酱夹心饼93g",
+      "price": 4.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901180935882",
+      "name": "嘉士利草莓果酱夹心饼干205g",
+      "shortName": "嘉士利草莓果酱夹心饼干205g",
+      "price": 7.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901180935981",
+      "name": "嘉士利蓝莓味果酱夹心饼干205g",
+      "shortName": "嘉士利蓝莓味果酱夹心饼干205g",
+      "price": 7.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901180963311",
+      "name": "嘉士利轻食果纤三莓味饼干59g",
+      "shortName": "嘉士利轻食果纤三莓味饼干59g",
+      "price": 3.5,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901180963113",
+      "name": "嘉士利轻食果纤黑加仑味夹心饼干59g",
+      "shortName": "嘉士利轻食果纤黑加仑味夹心饼干59g",
+      "price": 3.5,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901180915884",
+      "name": "嘉士蓝梅果酱夹心饼干93g",
+      "shortName": "嘉士蓝梅果酱夹心饼干93g",
+      "price": 4.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6973848741814",
+      "name": "嘉百士清润蓝莓沙琪玛320g",
+      "shortName": "嘉百士清润蓝莓沙琪玛320g",
+      "price": 10.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6973848741845",
+      "name": "嘉百士清香南瓜仁沙琪玛320g",
+      "shortName": "嘉百士清香南瓜仁沙琪玛320g",
+      "price": 10.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923450613283",
+      "name": "大大泡泡糖630g",
+      "shortName": "大大泡泡糖630g",
+      "price": 0.25,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6926617966666",
+      "name": "天冰冠军小白",
+      "shortName": "天冰冠军小白",
+      "price": 4.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6926617932739",
+      "name": "天冰卡罗蒂草莓杯",
+      "shortName": "天冰卡罗蒂草莓杯",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6926617932784",
+      "name": "天冰卡罗蒂葡杯",
+      "shortName": "天冰卡罗蒂葡杯",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6926617933286",
+      "name": "天冰嘿！小白",
+      "shortName": "天冰嘿！小白",
+      "price": 1.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6926617921993",
+      "name": "天冰小神童哈密瓜",
+      "shortName": "天冰小神童哈密瓜",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6926617921665",
+      "name": "天冰小神童巧克力",
+      "shortName": "天冰小神童巧克力",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6926617965287",
+      "name": "天冰小神童桃桃汽水",
+      "shortName": "天冰小神童桃桃汽水",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6926617921771",
+      "name": "天冰小神童草莓",
+      "shortName": "天冰小神童草莓",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6926617925533",
+      "name": "天冰巧克力中板",
+      "shortName": "天冰巧克力中板",
+      "price": 2.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6926617933569",
+      "name": "天冰提子中板",
+      "shortName": "天冰提子中板",
+      "price": 2.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6926617963603",
+      "name": "天冰方糕太子草莓味",
+      "shortName": "天冰方糕太子草莓味",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6926617932074",
+      "name": "天冰柠檬苏打",
+      "shortName": "天冰柠檬苏打",
+      "price": 1.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6926617965058",
+      "name": "天冰椰奶红豆",
+      "shortName": "天冰椰奶红豆",
+      "price": 2.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6926617965171",
+      "name": "天冰牡丹花冰糕",
+      "shortName": "天冰牡丹花冰糕",
+      "price": 2.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6926617931688",
+      "name": "天冰秘制冰棍红豆",
+      "shortName": "天冰秘制冰棍红豆",
+      "price": 1.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6926617963931",
+      "name": "天冰经典方糕太子",
+      "shortName": "天冰经典方糕太子",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6926617932135",
+      "name": "天冰老庙会",
+      "shortName": "天冰老庙会",
+      "price": 1.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6926617931169",
+      "name": "天冰聪明转转",
+      "shortName": "天冰聪明转转",
+      "price": 1.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6926617965188",
+      "name": "天冰茉莉花冰棍",
+      "shortName": "天冰茉莉花冰棍",
+      "price": 2.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6926617933217",
+      "name": "天冰菠萝风",
+      "shortName": "天冰菠萝风",
+      "price": 1.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901668200013",
+      "name": "太平梳打饼干奶盐味100g/袋",
+      "shortName": "太平梳打饼干奶盐味100g/袋",
+      "price": 4.5,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901668200235",
+      "name": "太平香葱梳打饼干100g",
+      "shortName": "太平香葱梳打饼干100g",
+      "price": 4.5,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901668935748",
+      "name": "奥利奥夹心饼干清新草莓味97g",
+      "shortName": "奥利奥夹心饼干清新草莓味97g",
+      "price": 6.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901668935762",
+      "name": "奥利奥巧克力味夹心饼干97g",
+      "shortName": "奥利奥巧克力味夹心饼干97g",
+      "price": 6.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901668935724",
+      "name": "奥利奥饼干经典原味97g",
+      "shortName": "奥利奥饼干经典原味97g",
+      "price": 6.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6975650081676",
+      "name": "奶豆腐",
+      "shortName": "奶豆腐",
+      "price": 1.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6920907808612",
+      "name": "好丽友呀土豆烤鸡披萨味薯片70g",
+      "shortName": "好丽友呀土豆烤鸡披萨味薯片70g",
+      "price": 5.5,
+      "category": "薯片",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6920907808537",
+      "name": "好丽友呀土豆番茄酱味70G",
+      "shortName": "好丽友呀土豆番茄酱味70G",
+      "price": 5.5,
+      "category": "薯片",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6920907808513",
+      "name": "好丽友呀土豆薯条番茄酱味40g/袋",
+      "shortName": "好丽友呀土豆薯条番茄酱味40g/袋",
+      "price": 3.5,
+      "category": "薯片",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6920907808575",
+      "name": "好丽友呀土豆里脊牛排味70g",
+      "shortName": "好丽友呀土豆里脊牛排味70g",
+      "price": 5.5,
+      "category": "薯片",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6920907808278",
+      "name": "好丽友好多鱼密香鸡翅味33g",
+      "shortName": "好丽友好多鱼密香鸡翅味33g",
+      "price": 4.5,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6920907808179",
+      "name": "好丽友好多鱼烧烤味饼干33g",
+      "shortName": "好丽友好多鱼烧烤味饼干33g",
+      "price": 4.5,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6920907808117",
+      "name": "好丽友好多鱼茄汁味33g",
+      "shortName": "好丽友好多鱼茄汁味33g",
+      "price": 4.5,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6920907817829",
+      "name": "好丽友紫葡萄味软糖70g",
+      "shortName": "好丽友紫葡萄味软糖70g",
+      "price": 4.5,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028937825",
+      "name": "好猫九美X10",
+      "shortName": "好猫九美X10",
+      "price": 20.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028937528",
+      "name": "好猫金猴烟",
+      "shortName": "好猫金猴烟",
+      "price": 8.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6975870990352",
+      "name": "好阿婆优咪熊猫",
+      "shortName": "好阿婆优咪熊猫",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6959734501649",
+      "name": "好阿婆哈密瓜杯",
+      "shortName": "好阿婆哈密瓜杯",
+      "price": 7.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6959734500512",
+      "name": "好阿婆噢耶脆菠萝",
+      "shortName": "好阿婆噢耶脆菠萝",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6959734501625",
+      "name": "好阿婆嫩玉米",
+      "shortName": "好阿婆嫩玉米",
+      "price": 4.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6959734501359",
+      "name": "好阿婆巧克力脆筒",
+      "shortName": "好阿婆巧克力脆筒",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6959734501496",
+      "name": "好阿婆抹茶鲜奶",
+      "shortName": "好阿婆抹茶鲜奶",
+      "price": 10.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6959734501489",
+      "name": "好阿婆无蔗糖椰奶芒果",
+      "shortName": "好阿婆无蔗糖椰奶芒果",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6959734501403",
+      "name": "好阿婆无蔗糖鲜奶雪糕",
+      "shortName": "好阿婆无蔗糖鲜奶雪糕",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6959734500703",
+      "name": "好阿婆榴恋",
+      "shortName": "好阿婆榴恋",
+      "price": 10.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6959734501311",
+      "name": "好阿婆流心巧克力",
+      "shortName": "好阿婆流心巧克力",
+      "price": 10.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6959734501380",
+      "name": "好阿婆经典奶酪",
+      "shortName": "好阿婆经典奶酪",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6959734501373",
+      "name": "好阿婆经典巧克力",
+      "shortName": "好阿婆经典巧克力",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6959734501182",
+      "name": "好阿婆经典纯奶",
+      "shortName": "好阿婆经典纯奶",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6959734501397",
+      "name": "好阿婆芝士蛋糕杯",
+      "shortName": "好阿婆芝士蛋糕杯",
+      "price": 10.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6975870990253",
+      "name": "好阿婆茉莉白桃口味冰淇淋",
+      "shortName": "好阿婆茉莉白桃口味冰淇淋",
+      "price": 7.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6959734501656",
+      "name": "好阿婆草莓杯",
+      "shortName": "好阿婆草莓杯",
+      "price": 7.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6959734501366",
+      "name": "好阿婆草莓酸奶",
+      "shortName": "好阿婆草莓酸奶",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6959734501632",
+      "name": "好阿婆菠萝蜜鲜奶雪糕",
+      "shortName": "好阿婆菠萝蜜鲜奶雪糕",
+      "price": 4.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6959734510030",
+      "name": "好阿婆葡萄树下",
+      "shortName": "好阿婆葡萄树下",
+      "price": 6.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6959734501670",
+      "name": "好阿婆蛋糕杯",
+      "shortName": "好阿婆蛋糕杯",
+      "price": 7.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6959734501458",
+      "name": "好阿婆雪糯糍",
+      "shortName": "好阿婆雪糯糍",
+      "price": 4.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6975870990239",
+      "name": "好阿婆青团牛奶",
+      "shortName": "好阿婆青团牛奶",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6975870990246",
+      "name": "好阿婆青团香芋口味",
+      "shortName": "好阿婆青团香芋口味",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6959734501342",
+      "name": "好阿婆香草脆筒",
+      "shortName": "好阿婆香草脆筒",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6959734501274",
+      "name": "好阿婆鲜奶绿豆",
+      "shortName": "好阿婆鲜奶绿豆",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6902083881405",
+      "name": "娃哈哈596ml水",
+      "shortName": "娃哈哈596ml水",
+      "price": 2.0,
+      "category": "纯净水",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6902083881085",
+      "name": "娃哈哈AD奶220ml",
+      "shortName": "娃哈哈AD奶220ml",
+      "price": 2.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6902083922658",
+      "name": "娃哈哈AD钙奶450ml",
+      "shortName": "娃哈哈AD钙奶450ml",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6902083814045",
+      "name": "娃哈哈AD钙奶水蜜桃味450ml",
+      "shortName": "娃哈哈AD钙奶水蜜桃味450ml",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6902083920500",
+      "name": "娃哈哈仙橙吔饮料500g",
+      "shortName": "娃哈哈仙橙吔饮料500g",
+      "price": 3.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6902083900687",
+      "name": "娃哈哈冰红茶1kg",
+      "shortName": "娃哈哈冰红茶1kg",
+      "price": 4.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6902083890414",
+      "name": "娃哈哈原味营养快线1.5L",
+      "shortName": "娃哈哈原味营养快线1.5L",
+      "price": 12.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6902083920227",
+      "name": "娃哈哈格瓦斯600ml",
+      "shortName": "娃哈哈格瓦斯600ml",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6902083882433",
+      "name": "娃哈哈桂圆莲子八宝粥360g",
+      "shortName": "娃哈哈桂圆莲子八宝粥360g",
+      "price": 4.5,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "16902083881624",
+      "name": "娃哈哈纯净水596ml*24整件装",
+      "shortName": "娃哈哈纯净水596ml*24整件装",
+      "price": 38.0,
+      "category": "纯净水",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6902083904685",
+      "name": "娃哈哈营养快线(红枣枸杞)500ml",
+      "shortName": "娃哈哈营养快线(红枣枸杞)500ml",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6902083886455",
+      "name": "娃哈哈营养快线原味500g",
+      "shortName": "娃哈哈营养快线原味500g",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6902083893842",
+      "name": "娃哈哈营养快线椰子味500ml",
+      "shortName": "娃哈哈营养快线椰子味500ml",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6902083894245",
+      "name": "娃哈哈营养快线水蜜桃味500ml",
+      "shortName": "娃哈哈营养快线水蜜桃味500ml",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6902083891329",
+      "name": "娃哈哈营养快线香草淇淋味500ml",
+      "shortName": "娃哈哈营养快线香草淇淋味500ml",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6902083881450",
+      "name": "娃哈（错误条码）",
+      "shortName": "娃哈哈596ml水",
+      "price": 0.0,
+      "category": "纯净水",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028084314",
+      "name": "娇子软阳光香烟",
+      "shortName": "娇子软阳光香烟",
+      "price": 10.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6930466600435",
+      "name": "宝哥儿火炬香草味雪糕",
+      "shortName": "宝哥儿火炬香草味雪糕",
+      "price": 1.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6930466602620",
+      "name": "宝哥儿炒酸酸奶杯",
+      "shortName": "宝哥儿炒酸酸奶杯",
+      "price": 1.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6975650080274",
+      "name": "宝哥小熊掌",
+      "shortName": "宝哥小熊掌",
+      "price": 1.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6975650080747",
+      "name": "宝哥小熊掌",
+      "shortName": "宝哥小熊掌",
+      "price": 1.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6975650080136",
+      "name": "宝哥火炬",
+      "shortName": "宝哥火炬",
+      "price": 1.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6975650081027",
+      "name": "宝哥炒酸奶杯",
+      "shortName": "宝哥炒酸奶杯",
+      "price": 1.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6975650081706",
+      "name": "宝哥雪莲",
+      "shortName": "宝哥雪莲",
+      "price": 1.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6972119550360",
+      "name": "小歪嘴浓酱兼香型白酒100ml45度",
+      "shortName": "小歪嘴浓酱兼香型白酒100ml45度",
+      "price": 18.0,
+      "category": "酒类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6926104969941",
+      "name": "小火脆骨肠玉米味18g4粒",
+      "shortName": "小火脆骨肠玉米味18g4粒",
+      "price": 1.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6970248889450",
+      "name": "小艾粉椰椰子口味冰淇淋",
+      "shortName": "小艾粉椰椰子口味冰淇淋",
+      "price": 6.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6928831288579",
+      "name": "小魔舌苹果口味冰淇淋70G",
+      "shortName": "小魔舌苹果口味冰淇淋70G",
+      "price": 1.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168504015",
+      "name": "尖叫活性肽型运动饮料550ml",
+      "shortName": "尖叫活性肽型运动饮料550ml",
+      "price": 5.0,
+      "category": "功能性饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921311196364",
+      "name": "康师傅柠檬味冰红茶饮料1L",
+      "shortName": "康师傅柠檬味冰红茶饮料1L",
+      "price": 4.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6928831290732",
+      "name": "康怡东北冻梨冻梨味冰棍70g",
+      "shortName": "康怡东北冻梨冻梨味冰棍70g",
+      "price": 1.5,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6928831290930",
+      "name": "康怡悟空棒（巧克力香草）冰淇淋",
+      "shortName": "康怡悟空棒（巧克力香草）冰淇淋",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6928831291029",
+      "name": "康怡真巧",
+      "shortName": "康怡真巧",
+      "price": 1.5,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6925909900241",
+      "name": "张新发50青果槟榔72g",
+      "shortName": "张新发50青果槟榔72g",
+      "price": 25.0,
+      "category": "槟榔",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6976477805797",
+      "name": "张新发爆珠槟榔之醉酱香66g",
+      "shortName": "张新发爆珠槟榔之醉酱香66g",
+      "price": 35.0,
+      "category": "槟榔",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6925909980526",
+      "name": "张新发百年食用槟榔6g",
+      "shortName": "张新发百年食用槟榔6g",
+      "price": 5.0,
+      "category": "槟榔",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6925909980595",
+      "name": "张新发薄荷槟榔30G",
+      "shortName": "张新薄荷槟榔30G",
+      "price": 10.0,
+      "category": "槟榔",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923450603574",
+      "name": "彩虹糖原果味30g",
+      "shortName": "彩虹糖原果味30g",
+      "price": 5.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6937638107488",
+      "name": "思宏山楂棒原味68g",
+      "shortName": "思宏山楂棒原味68g",
+      "price": 4.5,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6937638107518",
+      "name": "思宏蓝莓山楂棒68g",
+      "shortName": "思宏蓝莓山楂棒68g",
+      "price": 4.5,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6920458837062",
+      "name": "怡宝愿事之茗原味奶茶",
+      "shortName": "怡宝愿事之茗原味奶茶",
+      "price": 4.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6920458835884",
+      "name": "怡宝柠檬茶450ml",
+      "shortName": "怡宝柠檬茶450ml",
+      "price": 4.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6920458835488",
+      "name": "怡宝桃桃假日440ml",
+      "shortName": "怡宝桃桃假日440ml",
+      "price": 4.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6920458836201",
+      "name": "怡宝橙橙假日440ml",
+      "shortName": "怡宝橙橙假日440ml",
+      "price": 4.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901285991219",
+      "name": "怡宝纯净水",
+      "shortName": "怡宝纯净水",
+      "price": 2.0,
+      "category": "纯净水",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901285991271",
+      "name": "怡宝纯净水1.55L",
+      "shortName": "怡宝纯净水1.55L",
+      "price": 3.0,
+      "category": "纯净水",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901285991486",
+      "name": "怡宝纯净水550ml*12",
+      "shortName": "怡宝纯净水550ml*12",
+      "price": 9.9,
+      "category": "纯净水",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901285991233",
+      "name": "怡宝纯净水555ml*24整件",
+      "shortName": "怡宝纯净水555ml*24整件",
+      "price": 38.0,
+      "category": "纯净水",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6920458836461",
+      "name": "怡宝至本清润柠檬茶1L",
+      "shortName": "怡宝至本清润柠檬茶1L",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6920458836447",
+      "name": "怡宝至本清润菊花茶1L",
+      "shortName": "怡宝至本清润菊花茶1L",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6920458835617",
+      "name": "怡宝菊花茶450ml",
+      "shortName": "怡宝菊花茶450ml",
+      "price": 4.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6920458834870",
+      "name": "怡宝蜜水柠檬480ml",
+      "shortName": "怡宝蜜水柠檬480ml",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6920458835150",
+      "name": "怡宝蜜水白柚480ml",
+      "shortName": "怡宝蜜水白柚480ml",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6920458835174",
+      "name": "怡宝蜜水百香果480ml",
+      "shortName": "怡宝蜜水百香果480ml",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6975958370175",
+      "name": "慕容雪爆鸡腿香草口味雪糕75g",
+      "shortName": "慕容雪爆鸡腿香草口味雪糕75g",
+      "price": 8.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6975056990008",
+      "name": "打火机一元",
+      "shortName": "打火机一元",
+      "price": 1.0,
+      "category": "临时类别",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6970177015555",
+      "name": "打火机恭喜发财",
+      "shortName": "打火机恭喜发财",
+      "price": 2.0,
+      "category": "临时类别",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924160713522",
+      "name": "无穷烤鸡翅根(蜂蜜味)20g",
+      "shortName": "无穷烤鸡翅根(蜂蜜味)20g",
+      "price": 3.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924160713546",
+      "name": "无穷烤鸡翅根(香辣味)20g",
+      "shortName": "无穷烤鸡翅根(香辣味)20g",
+      "price": 3.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924160714093",
+      "name": "无穷烤鸡翅根蜂蜜味60g",
+      "shortName": "无穷烤鸡翅根蜂蜜味60g",
+      "price": 14.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924160714710",
+      "name": "无穷爱辣鸡蛋25g",
+      "shortName": "无穷爱辣鸡蛋25g",
+      "price": 2.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924160714017",
+      "name": "无穷盐焗鸡蛋30g",
+      "shortName": "无穷盐焗鸡蛋30g",
+      "price": 2.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924160715151",
+      "name": "无穷酱卤大鸭腿85g",
+      "shortName": "无穷酱卤大鸭腿85g",
+      "price": 10.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924160715229",
+      "name": "无穷酱卤鸭翅根30g",
+      "shortName": "无穷酱卤鸭翅根30g",
+      "price": 3.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6916749306546",
+      "name": "旭东百里挑一蒜香味花生258g",
+      "shortName": "旭东百里挑一蒜香味花生258g",
+      "price": 10.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6922939231628",
+      "name": "旺旺碎冰冰可乐口味",
+      "shortName": "旺旺碎冰冰可乐口味",
+      "price": 1.0,
+      "category": "棒棒冰",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6925861531156",
+      "name": "旺旺碎冰冰可柠檬味",
+      "shortName": "旺旺碎冰冰可柠檬味",
+      "price": 1.0,
+      "category": "棒棒冰",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6925861531828",
+      "name": "旺旺碎冰冰果冻桃子味",
+      "shortName": "旺旺碎冰冰果冻桃子味",
+      "price": 1.0,
+      "category": "棒棒冰",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6925861531835",
+      "name": "旺旺碎冰冰果味饮料乳酸味",
+      "shortName": "旺旺碎冰冰果味饮料乳酸味",
+      "price": 1.0,
+      "category": "棒棒冰",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6925861531064",
+      "name": "旺旺碎冰冰草莓味",
+      "shortName": "旺旺碎冰冰草莓味",
+      "price": 1.0,
+      "category": "棒棒冰",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6925861531170",
+      "name": "旺旺碎冰冰菠萝味",
+      "shortName": "旺旺碎冰冰菠萝味",
+      "price": 1.0,
+      "category": "棒棒冰",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6931008173882",
+      "name": "星期8牛肉粒五香味100g",
+      "shortName": "星期8牛肉粒五香味100g",
+      "price": 9.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6931008194115",
+      "name": "星期8红薯果脯168g",
+      "shortName": "星期8红薯果脯168g",
+      "price": 5.5,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6931008193750",
+      "name": "星期八什锦瑞士软糖168g",
+      "shortName": "星期八什锦瑞士软糖168g",
+      "price": 5.5,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6931008172410",
+      "name": "星期八大片话梅肉128g",
+      "shortName": "星期八大片话梅肉128g",
+      "price": 4.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6931008100154",
+      "name": "星期八爱心形棉花糖128g",
+      "shortName": "星期八爱心形棉花糖128g",
+      "price": 3.5,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6931008189654",
+      "name": "星期八芒果干60g",
+      "shortName": "星期八芒果干60g",
+      "price": 5.5,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6931008100871",
+      "name": "星期八草莓味软糖88g",
+      "shortName": "星期八草莓味软糖88g",
+      "price": 4.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6931008178672",
+      "name": "星期八迷你山楂118g",
+      "shortName": "星期八迷你山楂118g",
+      "price": 3.5,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6931008100888",
+      "name": "星期八酸奶风味软糖88g",
+      "shortName": "星期八酸奶风味软糖88g",
+      "price": 4.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6931008178641",
+      "name": "星期八雪花山楂118g",
+      "shortName": "星期八雪花山楂118g",
+      "price": 3.5,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6931008158100",
+      "name": "星期八鱿鱼丝52g",
+      "shortName": "星期八鱿鱼丝52g",
+      "price": 7.5,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6932006221148",
+      "name": "景丽华冰球青提味80g",
+      "shortName": "景丽华冰球青提味80g",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6932006219077",
+      "name": "景丽华奶豆腐牛奶口味40g",
+      "shortName": "景丽华奶豆腐牛奶口味40g",
+      "price": 1.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6932006221155",
+      "name": "景丽华系列水果冰球80g",
+      "shortName": "景丽华系列水果冰球80g",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6932006221131",
+      "name": "景丽华葡萄冰球白桃冰球八亿牧场80g",
+      "shortName": "景丽华葡萄冰球白桃冰球八亿牧场80g",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6920907818888",
+      "name": "果滋果心紫葡萄味",
+      "shortName": "好丽友礼盒",
+      "price": 2.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6920907817799",
+      "name": "果滋果心葡萄味70g",
+      "shortName": "果滋果心葡萄味70g",
+      "price": 4.5,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6920907818864",
+      "name": "果滋果心青葡萄味33g",
+      "shortName": "果滋果心青葡萄味33g",
+      "price": 2.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901845040517",
+      "name": "格力高星奇夹心饼干巧克力味60g",
+      "shortName": "格力高星奇夹心饼干巧克力味60g",
+      "price": 5.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901845040524",
+      "name": "格力高星奇水果味夹心饼干55g",
+      "shortName": "格力高星奇水果味夹心饼干55g",
+      "price": 5.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901845040494",
+      "name": "格力高星奇牛奶味夹心饼干60g",
+      "shortName": "格力高星奇牛奶味夹心饼干60g",
+      "price": 5.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6940032702418",
+      "name": "欧莱蒂一支松鼠",
+      "shortName": "欧莱蒂一支松鼠",
+      "price": 2.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168560189",
+      "name": "水溶C100血橙味果汁445ml",
+      "shortName": "水溶C100血橙味果汁445ml",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6947736212403",
+      "name": "淇航冰杯",
+      "shortName": "淇航冰杯",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6947736212359",
+      "name": "淇航厚切榴莲5支装",
+      "shortName": "淇航厚切榴莲5支装",
+      "price": 15.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6947736212311",
+      "name": "淇航厚切榴莲单支",
+      "shortName": "淇航厚切榴莲单支",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6947736210645",
+      "name": "淇航原味红豆10支装",
+      "shortName": "淇航原味红豆10支装",
+      "price": 20.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6947736200653",
+      "name": "淇航原味红豆单支",
+      "shortName": "淇航原味红豆单支",
+      "price": 2.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6947736210652",
+      "name": "淇航原味绿豆10支装",
+      "shortName": "淇航原味绿豆10支装",
+      "price": 20.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6947736200660",
+      "name": "淇航原味绿豆单支",
+      "shortName": "淇航原味绿豆单支",
+      "price": 2.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6947736211604",
+      "name": "淇航大脚板",
+      "shortName": "淇航大脚板",
+      "price": 1.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6947736210362",
+      "name": "淇航老式雪糕10支装",
+      "shortName": "淇航老式雪糕单支",
+      "price": 10.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6947736206358",
+      "name": "淇航老式雪糕单支",
+      "shortName": "淇航老式雪糕单支",
+      "price": 2.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6947736212397",
+      "name": "淇航，猫山王榴莲",
+      "shortName": "淇航，猫山王榴莲",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921284451682",
+      "name": "淘淘氧棉小蛮腰纯棉号裤型卫生巾M3",
+      "shortName": "淘淘氧棉小蛮腰纯棉号裤型卫生巾M3",
+      "price": 12.0,
+      "category": "日用",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921284451033",
+      "name": "淘淘氧棉日用卫生巾10P",
+      "shortName": "淘淘氧棉无香型日用卫生巾10P",
+      "price": 10.0,
+      "category": "日用",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "692128441019",
+      "name": "淘淘氧棉日用组合10片",
+      "shortName": "淘淘氧棉日用组合10片",
+      "price": 11.0,
+      "category": "日用",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921284451187",
+      "name": "淘淘氧棉超长夜用410mm",
+      "shortName": "淘淘氧棉超长夜用410mm",
+      "price": 10.0,
+      "category": "日用",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921284493972",
+      "name": "淘淘氧棉迷你巾180mm",
+      "shortName": "淘淘氧棉迷你巾180mm",
+      "price": 6.0,
+      "category": "日用",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6922266457432",
+      "name": "清风手帕纸小包",
+      "shortName": "清风手帕纸小包",
+      "price": 1.0,
+      "category": "日用",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6922266438417",
+      "name": "清风纯水湿巾独立包装",
+      "shortName": "清风纯水湿巾独立包装",
+      "price": 4.0,
+      "category": "日用",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6922266444333",
+      "name": "清风迷你手帕纸10包装",
+      "shortName": "清风迷你手帕纸10包装",
+      "price": 4.0,
+      "category": "日用",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6922266443190",
+      "name": "清风金装卷纸4层145g12卷装",
+      "shortName": "清风金装卷纸4层145g12卷装",
+      "price": 24.0,
+      "category": "日用",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6930466605423",
+      "name": "港湾码头熟榴莲冰淇淋",
+      "shortName": "港湾码头熟榴莲冰淇淋",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6930466605447",
+      "name": "港湾码头生巧雪糕",
+      "shortName": "港湾码头生巧雪糕",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6930466606703",
+      "name": "港湾码头白桃丸子",
+      "shortName": "港湾码头白桃丸子",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6930466606697",
+      "name": "港湾码头葡萄丸子",
+      "shortName": "港湾码头葡萄丸子",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6930466605195",
+      "name": "湾仔码头奶白兔雪糕",
+      "shortName": "湾仔码头奶白兔雪糕",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6975650080846",
+      "name": "湾仔码头宝哥磨巧",
+      "shortName": "湾仔码头宝哥磨巧",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6952480069692",
+      "name": "溜溜梅西梅60g",
+      "shortName": "溜溜梅西梅60g",
+      "price": 5.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923976111171",
+      "name": "溜溜梅雪梅60g",
+      "shortName": "溜溜梅雪梅60g",
+      "price": 5.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923976113137",
+      "name": "溜溜梅青梅60g",
+      "shortName": "溜溜梅青梅60g",
+      "price": 5.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924513909312",
+      "name": "炫迈卡曼橘柠檬草味",
+      "shortName": "炫迈卡曼橘柠檬草味",
+      "price": 10.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6954432710256",
+      "name": "炫迈水密西瓜味口香糖",
+      "shortName": "炫迈水密西瓜味口香糖",
+      "price": 10.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6954432710645",
+      "name": "炫迈炫紫葡萄味",
+      "shortName": "炫迈炫紫葡萄味",
+      "price": 10.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6954432710225",
+      "name": "炫迈薄荷味口香糖",
+      "shortName": "炫迈薄荷味口香糖",
+      "price": 10.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6954432710911",
+      "name": "炫迈跃动草莓味口香糖",
+      "shortName": "炫迈跃动草莓味口香糖",
+      "price": 10.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6954432710195",
+      "name": "炫迈跃动鲜果味无糖口香糖28片",
+      "shortName": "炫迈跃动鲜果味无糖口香糖28片",
+      "price": 10.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921400988337",
+      "name": "爱迪小神童香芋味/巧克力",
+      "shortName": "爱迪小神童香芋味",
+      "price": 1.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921400900148",
+      "name": "爱迪椰子灰巧克力雪糕60g",
+      "shortName": "爱迪椰子灰巧克力雪糕60g",
+      "price": 1.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921400900278",
+      "name": "爱迪老绿豆85g",
+      "shortName": "爱迪老绿豆85g",
+      "price": 1.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923228405089",
+      "name": "牛浪汉烧烤孜然牛肉60G",
+      "shortName": "牛浪汉烧烤孜然牛肉60G",
+      "price": 8.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028317122",
+      "name": "玉溪",
+      "shortName": "玉溪",
+      "price": 23.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924862100033",
+      "name": "百事可乐",
+      "shortName": "百事可乐",
+      "price": 3.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924862102396",
+      "name": "百事可乐1L",
+      "shortName": "百事可乐1L",
+      "price": 4.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924862103577",
+      "name": "百事可乐型汽水900ml",
+      "shortName": "百事可乐型汽水900ml",
+      "price": 4.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924862101894",
+      "name": "百事可乐无糖型汽水500ml",
+      "shortName": "百事可乐无糖型汽水500ml",
+      "price": 3.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924862101771",
+      "name": "百事可乐汽水330ml罐",
+      "shortName": "百事可乐汽水330ml罐",
+      "price": 2.5,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924862104147",
+      "name": "百事可乐青柠汽水900ml",
+      "shortName": "百事可乐青柠汽水900ml",
+      "price": 4.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924862103584",
+      "name": "百事无糖11-饮料900ml",
+      "shortName": "百事无糖11-饮料900ml",
+      "price": 4.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924862102754",
+      "name": "百事清柠味可乐型汽水600ml",
+      "shortName": "百事清柠味可乐型汽水600ml",
+      "price": 3.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6916749306669",
+      "name": "百里挑一南瓜籽椒盐味178g",
+      "shortName": "百里挑一南瓜籽椒盐味178g",
+      "price": 10.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6916749307222",
+      "name": "百里挑一多味瓜子400g",
+      "shortName": "百里挑一多味瓜子400g",
+      "price": 16.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6916749306102",
+      "name": "百里挑一多味瓜籽208g",
+      "shortName": "百里挑一多味瓜籽208g",
+      "price": 10.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6916749306096",
+      "name": "百里挑一山核桃味花生258g",
+      "shortName": "百里挑一山核桃味花生258g",
+      "price": 10.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6916749306072",
+      "name": "百里挑一话梅味西瓜子188g",
+      "shortName": "百里挑一话梅味西瓜子188g",
+      "price": 10.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6916749300971",
+      "name": "百里挑一话梅西瓜子13g",
+      "shortName": "百里挑一话梅西瓜子13g",
+      "price": 1.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923450657829",
+      "name": "益达木糖醇冰宁味40粒",
+      "shortName": "益达木糖醇冰宁味40粒",
+      "price": 12.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923450656150",
+      "name": "益达木糖醇草莓味40粒",
+      "shortName": "益达木糖醇草莓味40粒",
+      "price": 12.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923450657935",
+      "name": "益达木糖醇蓝莓味40粒",
+      "shortName": "益达木糖醇蓝莓味40粒",
+      "price": 12.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923450656181",
+      "name": "益达木糖醇薄荷味40粒装",
+      "shortName": "益达木糖醇薄荷味40粒装",
+      "price": 12.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "69025143",
+      "name": "益达木糖醇蜜瓜味40粒",
+      "shortName": "益达木糖醇蜜瓜味40粒",
+      "price": 12.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923450657638",
+      "name": "益达木糖醇西瓜味40粒",
+      "shortName": "益达木糖醇西瓜味40粒",
+      "price": 12.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923450656860",
+      "name": "益达木糖醇香橙味40粒",
+      "shortName": "益达木糖醇香橙味40粒",
+      "price": 12.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923450659441",
+      "name": "益达清香蜜桃新瓶装40粒",
+      "shortName": "益达清香蜜桃新瓶装40粒",
+      "price": 12.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923450657607",
+      "name": "益达西瓜味12片装",
+      "shortName": "益达西瓜味12片装",
+      "price": 6.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "69027086",
+      "name": "益达西瓜味5片装",
+      "shortName": "益达西瓜味5片装",
+      "price": 3.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6926104940537",
+      "name": "盐津铺子迷你4粒肠奥尔良味",
+      "shortName": "盐津铺子迷你4粒肠奥尔良味",
+      "price": 1.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6926104950789",
+      "name": "盐津铺子鹌鹑蛋焗味25g",
+      "shortName": "盐津铺子鹌鹑蛋焗味25g",
+      "price": 2.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923450683163",
+      "name": "真知棒什锦味",
+      "shortName": "真知棒什锦味",
+      "price": 0.5,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028193498",
+      "name": "硬盒芙蓉王烟",
+      "shortName": "硬盒芙蓉王烟",
+      "price": 25.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6943090420065",
+      "name": "红旗桃蜜桃口味冰淇淋75g",
+      "shortName": "红旗桃蜜桃口味冰淇淋75g",
+      "price": 10.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028055024",
+      "name": "红河软甲",
+      "shortName": "红河软甲",
+      "price": 7.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6920202888883",
+      "name": "红牛维生素功能饮料250ml",
+      "shortName": "红牛维生素功能饮料250ml",
+      "price": 6.0,
+      "category": "功能性饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028940498",
+      "name": "红金龙(硬新版)",
+      "shortName": "红金龙(硬新版)",
+      "price": 6.5,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028179287",
+      "name": "红金龙(软精品)",
+      "shortName": "红金龙(软)",
+      "price": 11.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028182553",
+      "name": "红金龙硬红龙",
+      "shortName": "红金龙硬红龙",
+      "price": 6.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028181785",
+      "name": "红金龙硬蓝爱你",
+      "shortName": "红金龙硬蓝爱你",
+      "price": 13.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028186896",
+      "name": "红金龙（硬爱你爆珠）",
+      "shortName": "红金龙（硬爱你爆珠）",
+      "price": 15.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028180610",
+      "name": "红金龙（硬神州腾龙）",
+      "shortName": "红金龙（硬神州腾龙）",
+      "price": 7.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028180603",
+      "name": "红金龙（硬神州腾龙）*10",
+      "shortName": "红金龙（硬神州腾龙）*10",
+      "price": 70.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028179331",
+      "name": "红黄鹤楼软红",
+      "shortName": "红黄鹤楼软红",
+      "price": 25.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028179348",
+      "name": "红黄鹤楼软红1*10整条",
+      "shortName": "红黄鹤楼软红1*10整条",
+      "price": 240.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "8993175540629",
+      "name": "纳宝帝丽巧克力味威化饼干56g",
+      "shortName": "纳宝帝丽巧克力味威化饼干56g",
+      "price": 2.5,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "8993175537469",
+      "name": "纳宝帝丽芝士奶酪味威化饼干145g",
+      "shortName": "纳宝帝丽芝士奶酪味威化饼干145g",
+      "price": 6.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "8993175537445",
+      "name": "纳宝帝丽芝士奶酪味威化饼干56g",
+      "shortName": "纳宝帝丽芝士奶酪味威化饼干56g",
+      "price": 2.5,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "8993175545082",
+      "name": "纳宝帝布朗尼注心曲奇饼干112g",
+      "shortName": "纳宝帝布朗尼注心曲奇饼干112g",
+      "price": 5.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901035605328",
+      "name": "经典啤酒500ml",
+      "shortName": "经典啤酒500ml",
+      "price": 6.0,
+      "category": "酒类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901035605335",
+      "name": "经典啤酒500ml*12整件",
+      "shortName": "经典啤酒500ml*12整件",
+      "price": 70.0,
+      "category": "酒类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6925303730574",
+      "name": "统一500ml阿萨姆奶茶",
+      "shortName": "统一500ml阿萨姆奶茶",
+      "price": 4.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6925303723934",
+      "name": "统一低糖茉莉味绿茶1L",
+      "shortName": "统一低糖茉莉味绿茶1L",
+      "price": 4.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6925303752330",
+      "name": "统一冰糖雪梨饮料1L",
+      "shortName": "统一冰糖雪梨饮料1L",
+      "price": 4.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6925303723910",
+      "name": "统一冰红茶1L",
+      "shortName": "统一冰红茶1L",
+      "price": 4.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6925303721398",
+      "name": "统一冰红茶500ml",
+      "shortName": "统一冰红茶500ml",
+      "price": 3.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6925303759254",
+      "name": "统一冰绿茶青梅1L",
+      "shortName": "统一冰绿茶青梅1L",
+      "price": 4.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6925303759186",
+      "name": "统一海之言地中海海盐柠檬1L",
+      "shortName": "统一海之言地中海海盐柠檬1L",
+      "price": 6.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6925303754112",
+      "name": "统一海之言柠檬味",
+      "shortName": "统一海之言柠檬味",
+      "price": 4.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6925303702175",
+      "name": "统一焕神维生素能量饮料1L",
+      "shortName": "焕神维生素能量饮料1L",
+      "price": 6.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6925303721367",
+      "name": "统一绿茶(茉莉花)500ml",
+      "shortName": "统一绿茶(茉莉花)500ml",
+      "price": 3.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6925303758813",
+      "name": "统一蜜桃多饮料1L",
+      "shortName": "统一蜜桃多饮料1L",
+      "price": 4.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6925303758783",
+      "name": "统一金桔柠檬1L",
+      "shortName": "统一金桔柠檬1L",
+      "price": 4.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168550142",
+      "name": "维他命水柑橘风味500ml",
+      "shortName": "维他命水柑橘风味500ml",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168550104",
+      "name": "维他命水石榴蓝莓风味500ml",
+      "shortName": "维他命水石榴蓝莓风味500ml",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901236373966",
+      "name": "维达200克10粒蓝色经典",
+      "shortName": "维达200克10粒蓝色经典",
+      "price": 28.0,
+      "category": "日用",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6934272998595",
+      "name": "维邦纸360抽单包",
+      "shortName": "维邦纸360抽单包",
+      "price": 2.0,
+      "category": "日用",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6934272998601",
+      "name": "维邦舒享一提8包装",
+      "shortName": "维邦舒享一提8包装",
+      "price": 12.0,
+      "category": "日用",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923450605332",
+      "name": "绿箭冰柠薄荷味35粒铁盒装",
+      "shortName": "绿箭冰柠薄荷味35粒铁盒装",
+      "price": 10.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "69042386",
+      "name": "绿箭口香糖5片装",
+      "shortName": "绿箭口香糖5片装",
+      "price": 2.5,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923450605288",
+      "name": "绿箭口香糖薄荷12片装",
+      "shortName": "绿箭口香糖薄荷12片装",
+      "price": 6.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "69028571",
+      "name": "绿箭无糖薄荷35粒贴合装",
+      "shortName": "绿箭无糖薄荷35粒贴合装",
+      "price": 10.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923450614952",
+      "name": "绿箭无糖薄荷糖茉莉花茶味13g",
+      "shortName": "绿箭无糖薄荷糖茉莉花茶味13g",
+      "price": 5.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923450614570",
+      "name": "绿箭无糖薄荷糖萌萌蜜桃味小铁盒装13g",
+      "shortName": "绿箭无糖薄荷糖萌萌蜜桃味小铁盒装13g",
+      "price": 5.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923450605318",
+      "name": "绿箭薄荷糖茉莉花茶味23.8g",
+      "shortName": "绿箭薄荷糖茉莉花茶味23.8g",
+      "price": 10.0,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644246761",
+      "name": "绿色心情桂花绿豆",
+      "shortName": "绿色心情桂花绿豆",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924862100996",
+      "name": "美年达七喜葡萄味600ml",
+      "shortName": "美年达七喜葡萄味600ml",
+      "price": 3.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924862101085",
+      "name": "美年达橙味汽水600ml",
+      "shortName": "美年达橙味汽水600ml",
+      "price": 3.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6924862100989",
+      "name": "美年达青苹果味500+100ml",
+      "shortName": "美年达青苹果味500+100ml",
+      "price": 3.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6975682480300",
+      "name": "美汁源果粒奶优草莓味",
+      "shortName": "美汁源果粒奶优草莓味",
+      "price": 4.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6975682480058",
+      "name": "美汁源果粒橙450ml",
+      "shortName": "美汁源果粒橙450ml",
+      "price": 4.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6928831290718",
+      "name": "老汽水康怡冰棒",
+      "shortName": "老汽水康怡冰棒",
+      "price": 1.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6926052515740",
+      "name": "自由点益生菌430夜用卫生巾4片",
+      "shortName": "自由点®益生菌430夜用卫生巾4片",
+      "price": 10.0,
+      "category": "日用",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6926052515375",
+      "name": "自由点益生菌夜用卫生巾7片",
+      "shortName": "自由点®益生菌夜用卫生巾7片",
+      "price": 10.0,
+      "category": "日用",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6926052515276",
+      "name": "自由点益生菌日用卫生巾8片",
+      "shortName": "自由点®益生菌日用卫生巾8片",
+      "price": 10.0,
+      "category": "日用",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6970248887999",
+      "name": "艾冰客榴莲雪糕",
+      "shortName": "艾冰客榴莲雪糕",
+      "price": 6.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028204828",
+      "name": "芙蓉王（硬中支）",
+      "shortName": "芙蓉王（硬中支）",
+      "price": 30.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6928804011326",
+      "name": "芬达橙味汽水500ml",
+      "shortName": "芬达橙味汽水500ml",
+      "price": 3.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168598304",
+      "name": "茶派柚子绿茶900ml",
+      "shortName": "茶派柚子绿茶900ml",
+      "price": 7.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168593583",
+      "name": "茶派柠檬红茶500ml",
+      "shortName": "茶派柠檬红茶500ml",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168560165",
+      "name": "茶派茉莉花柠檬茶500ml",
+      "shortName": "茶派茉莉花柠檬茶500ml",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168563576",
+      "name": "茶派茶柚子绿茶500ml",
+      "shortName": "茶派茶柚子绿茶500ml",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168594450",
+      "name": "茶派蜜桃乌龙900ml",
+      "shortName": "茶派蜜桃乌龙900ml",
+      "price": 7.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168593569",
+      "name": "茶派蜜桃乌龙茶500ml",
+      "shortName": "茶派蜜桃乌龙茶500ml",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168593552",
+      "name": "茶派西柚茉莉500ml",
+      "shortName": "茶派西柚茉莉500ml",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921168598298",
+      "name": "茶派西柚茉莉900ml",
+      "shortName": "茶派西柚茉莉900ml",
+      "price": 7.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6928831291005",
+      "name": "草莓脆皮雪糕",
+      "shortName": "草莓脆皮雪糕",
+      "price": 1.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028079952",
+      "name": "荷花",
+      "shortName": "荷花",
+      "price": 40.0,
+      "category": "临时类别",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644247065",
+      "name": "蒙牛18度脆筒牛乳凤梨",
+      "shortName": "蒙牛18度脆筒牛乳凤梨",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644284305",
+      "name": "蒙牛三色杯",
+      "shortName": "蒙牛三色杯",
+      "price": 4.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644237097",
+      "name": "蒙牛优牧奶提子雪糕",
+      "shortName": "蒙牛优牧奶提子雪糕",
+      "price": 2.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644285791",
+      "name": "蒙牛优牧布丁",
+      "shortName": "蒙牛优牧布丁",
+      "price": 1.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644283261",
+      "name": "蒙牛俄式奶纯",
+      "shortName": "蒙牛俄式奶纯",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644284244",
+      "name": "蒙牛冰+山楂口味",
+      "shortName": "蒙牛冰+山楂口味",
+      "price": 2.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644246464",
+      "name": "蒙牛冰+巧克力",
+      "shortName": "蒙牛冰+巧克力",
+      "price": 4.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644296889",
+      "name": "蒙牛冰+海盐柠檬",
+      "shortName": "蒙牛冰+海盐柠檬",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644275198",
+      "name": "蒙牛冰+芒果",
+      "shortName": "蒙牛冰+芒果",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644275204",
+      "name": "蒙牛冰+蓝莓",
+      "shortName": "蒙牛冰+蓝莓",
+      "price": 2.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644246457",
+      "name": "蒙牛冰+黄皮柠檬",
+      "shortName": "蒙牛冰+黄皮柠檬",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644246358",
+      "name": "蒙牛冰爽椰",
+      "shortName": "蒙牛冰爽椰",
+      "price": 2.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644247454",
+      "name": "蒙牛圈圈脆",
+      "shortName": "蒙牛圈圈脆",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644285784",
+      "name": "蒙牛大布丁",
+      "shortName": "蒙牛大布丁",
+      "price": 2.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644246341",
+      "name": "蒙牛天生荔芝",
+      "shortName": "蒙牛天生荔芝",
+      "price": 2.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644285760",
+      "name": "蒙牛旋顶酸奶蓝莓杯",
+      "shortName": "蒙牛旋顶酸奶蓝莓杯",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644247447",
+      "name": "蒙牛活菌酸奶",
+      "shortName": "蒙牛活菌酸奶",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644250751",
+      "name": "蒙牛玉米棒",
+      "shortName": "蒙牛玉米棒",
+      "price": 2.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644246327",
+      "name": "蒙牛生牛乳冰淇淋",
+      "shortName": "蒙牛生牛乳冰淇淋",
+      "price": 10.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644246365",
+      "name": "蒙牛粉红泡泡糖",
+      "shortName": "蒙牛粉红泡泡糖",
+      "price": 2.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644285814",
+      "name": "蒙牛红枣牛奶",
+      "shortName": "蒙牛红枣牛奶",
+      "price": 4.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644246662",
+      "name": "蒙牛红豆双皮奶",
+      "shortName": "蒙牛红豆双皮奶",
+      "price": 4.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644284329",
+      "name": "蒙牛纯脆",
+      "shortName": "蒙牛纯脆",
+      "price": 2.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644266257",
+      "name": "蒙牛绿色心情",
+      "shortName": "蒙牛绿色心情",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644274344",
+      "name": "蒙牛绿色心情炼乳红豆",
+      "shortName": "蒙牛绿色心情炼乳红豆",
+      "price": 4.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644246747",
+      "name": "蒙牛绿色心情脆筒",
+      "shortName": "蒙牛绿色心情脆筒",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644274320",
+      "name": "蒙牛绿色心情鲜奶绿豆",
+      "shortName": "蒙牛绿色心情鲜奶绿豆",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644274313",
+      "name": "蒙牛绿色心情鲜奶豆",
+      "shortName": "蒙牛绿色心情鲜奶豆",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644246679",
+      "name": "蒙牛绿色心情黑芝",
+      "shortName": "蒙牛绿色心情黑芝",
+      "price": 4.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644284688",
+      "name": "蒙牛老冰棍",
+      "shortName": "蒙牛老冰棍",
+      "price": 1.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644296780",
+      "name": "蒙牛蒙牛圈",
+      "shortName": "蒙牛蒙牛圈",
+      "price": 3.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644246877",
+      "name": "蒙牛迷你随变牛乳巧克力",
+      "shortName": "蒙牛迷你随变牛乳巧克力",
+      "price": 4.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644237578",
+      "name": "蒙牛随变草莓软芯",
+      "shortName": "蒙牛随变草莓软芯",
+      "price": 6.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644230135",
+      "name": "蒙牛随变香草",
+      "shortName": "蒙牛随变香草",
+      "price": 3.5,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644284237",
+      "name": "蒙牛随心脆",
+      "shortName": "蒙牛随心脆",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644282264",
+      "name": "蒙牛随芯果",
+      "shortName": "蒙牛随芯果",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644284336",
+      "name": "蒙牛香芋脆皮",
+      "shortName": "蒙牛香芋脆皮",
+      "price": 2.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6923644284312",
+      "name": "蒙牛香草杯",
+      "shortName": "蒙牛香草杯",
+      "price": 5.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6976477803113",
+      "name": "蓝色妖姬槟榔",
+      "shortName": "蓝色妖姬槟榔",
+      "price": 10.0,
+      "category": "槟榔",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6970209860467",
+      "name": "螺霸王川香麻辣味螺蛳粉315g",
+      "shortName": "螺霸王川香麻辣味螺蛳粉315g",
+      "price": 12.0,
+      "category": "面（粉）类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6970209860856",
+      "name": "螺霸王螺蛳粉香螺浓汤味280g",
+      "shortName": "螺霸王螺蛳粉香螺浓汤味280g",
+      "price": 10.0,
+      "category": "面（粉）类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921643820418",
+      "name": "赛一手工辣条大辣面香辣味125g",
+      "shortName": "赛一手工辣条大辣面香辣味125g",
+      "price": 3.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6921643821347",
+      "name": "赛一手工辣条素牛排125g",
+      "shortName": "赛一手工辣条素牛排125g",
+      "price": 3.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901668054746",
+      "name": "趣多多经典巧克力味72g",
+      "shortName": "趣多多经典巧克力味72g",
+      "price": 6.5,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901668936714",
+      "name": "趣多多香脆曲奇巧力味85g",
+      "shortName": "趣多多香脆曲奇巧力味85g",
+      "price": 6.5,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6972119553538",
+      "name": "郎酒45度顺品金盖装480ml",
+      "shortName": "郎酒45度顺品金盖装480ml",
+      "price": 55.0,
+      "category": "酒类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028136884",
+      "name": "金圣硬红十二生肖香烟20支",
+      "shortName": "金圣硬红十二生肖香烟20支",
+      "price": 7.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028133043",
+      "name": "金圣青瓷中支",
+      "shortName": "金圣青瓷中支",
+      "price": 20.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6970858606102",
+      "name": "金星信阳毛尖中式精酿啤酒1L",
+      "shortName": "金星信阳毛尖中式精酿啤酒1L",
+      "price": 22.0,
+      "category": "酒类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6970858606690",
+      "name": "金星普洱生茶精酿啤酒",
+      "shortName": "金星普洱生茶精酿啤酒",
+      "price": 22.0,
+      "category": "酒类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6970858606256",
+      "name": "金星茉莉花茶中式精酿啤酒1L",
+      "shortName": "金星茉莉花茶中式精酿啤酒1L",
+      "price": 22.0,
+      "category": "酒类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907749001265",
+      "name": "金龙泉久尊500ml",
+      "shortName": "金龙泉久尊500ml",
+      "price": 2.5,
+      "category": "酒类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907749001579",
+      "name": "金龙泉九尊500ml*9瓶装",
+      "shortName": "金龙泉九尊500ml*9瓶装",
+      "price": 20.0,
+      "category": "酒类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907749003283",
+      "name": "金龙泉华炫啤酒500ml*6",
+      "shortName": "金龙泉华炫啤酒500ml*6",
+      "price": 27.0,
+      "category": "酒类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907749003313",
+      "name": "金龙泉啤酒华炫500ml",
+      "shortName": "金龙泉啤酒华炫500ml",
+      "price": 4.5,
+      "category": "酒类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907749004815",
+      "name": "金龙泉啤酒黄金10度330ml",
+      "shortName": "金龙泉啤酒黄金10度330ml",
+      "price": 3.0,
+      "category": "酒类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907749004839",
+      "name": "金龙泉啤酒黄金330ml*6瓶装",
+      "shortName": "金龙泉啤酒黄金330ml*6瓶装",
+      "price": 18.0,
+      "category": "酒类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907749004822",
+      "name": "金龙泉黄金10度330ml*24瓶整件",
+      "shortName": "金龙泉黄金10度330ml*24瓶整件",
+      "price": 60.0,
+      "category": "酒类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6974093180056",
+      "name": "银城湘味QQ鱼香辣",
+      "shortName": "银城湘味QQ鱼香辣",
+      "price": 1.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6947093110060",
+      "name": "银城湘味卤鸭掌38g",
+      "shortName": "银城湘味卤鸭掌38g",
+      "price": 2.5,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6947093140128",
+      "name": "银城湘味手撕烤脖糖醋42g",
+      "shortName": "银城湘味手撕烤脖糖醋42g",
+      "price": 2.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6947093188076",
+      "name": "银城湘味手撕烤脖黑鸭42g",
+      "shortName": "银城湘味手撕烤脖黑鸭42g",
+      "price": 2.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6947093180087",
+      "name": "银城湘味酱鸭脖60g",
+      "shortName": "银城湘味酱鸭脖60g",
+      "price": 5.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6947093188151",
+      "name": "银城湘味香辣素牛排",
+      "shortName": "银城湘味香辣素牛排",
+      "price": 1.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6970177011113",
+      "name": "防风打火机暴富",
+      "shortName": "防风打火机暴富",
+      "price": 2.0,
+      "category": "临时类别",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6944580700780",
+      "name": "阿奈老面包288g",
+      "shortName": "阿奈老面包288g",
+      "price": 7.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6911316540309",
+      "name": "阿尔卑斯棒棒糖原味",
+      "shortName": "阿尔卑斯棒棒糖原味",
+      "price": 0.5,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6911316660311",
+      "name": "阿尔卑斯棒棒糖水果奶味10g/个",
+      "shortName": "阿尔卑斯棒棒糖水果奶味10g/个",
+      "price": 0.5,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6911316640306",
+      "name": "阿尔卑斯棒棒糖（柠檬牛奶味）10g",
+      "shortName": "阿尔卑斯棒棒糖（柠檬牛奶味）10g",
+      "price": 0.5,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6911316730304",
+      "name": "阿尔卑斯糖树莓牛奶味10.5g",
+      "shortName": "阿尔卑斯糖树莓牛奶味10.5g",
+      "price": 0.5,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6911316600409",
+      "name": "阿尔卑斯草莓牛奶棒棒糖10g",
+      "shortName": "阿尔卑斯草莓牛奶棒棒糖10g",
+      "price": 0.5,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6911316570306",
+      "name": "阿尔卑斯葡萄牛奶味棒棒糖10g",
+      "shortName": "阿尔卑斯葡萄牛奶味棒棒糖10g",
+      "price": 0.5,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6911316810303",
+      "name": "阿尔卑斯香橙味棒棒糖10g",
+      "shortName": "阿尔卑斯香橙味棒棒糖10g",
+      "price": 0.5,
+      "category": "糖类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6970813670285",
+      "name": "随乐卤香味烤鸡腿70g",
+      "shortName": "随乐卤香味烤鸡腿70g",
+      "price": 5.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6970813670032",
+      "name": "随乐黑鸭味烤鸭腿100g",
+      "shortName": "随乐黑鸭味烤鸭腿100g",
+      "price": 7.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6917878030623",
+      "name": "雀巢268ml咖啡瓶",
+      "shortName": "雀巢268ml咖啡瓶",
+      "price": 6.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6918551814240",
+      "name": "雀巢8次方八次方活力甜橙味63g",
+      "shortName": "雀巢8次方八次方活力甜橙味63g",
+      "price": 11.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6918551817784",
+      "name": "雀巢8次方威化脆皮雪糕84g",
+      "shortName": "雀巢8次方威化脆皮雪糕84g",
+      "price": 11.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6918551807884",
+      "name": "雀巢8次方巧克力芝麻香草冰淇淋84g",
+      "shortName": "雀巢8次方巧克力芝麻香草冰淇淋84g",
+      "price": 11.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6918551817036",
+      "name": "雀巢8次方热烈朗姆味*浓脆布朗泥味",
+      "shortName": "雀巢8次方热烈朗姆味*浓脆布朗泥味",
+      "price": 11.0,
+      "category": "雪糕",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6928804010220",
+      "name": "雪碧柠檬味500ml",
+      "shortName": "雪碧柠檬味500ml",
+      "price": 3.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6928804010114",
+      "name": "零度可口可乐500ml",
+      "shortName": "零度可口可乐500ml",
+      "price": 3.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6972754482118",
+      "name": "零零亲原切风干肉麻辣味10g",
+      "shortName": "零零亲原切风干肉麻辣味10g",
+      "price": 2.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6972754487243",
+      "name": "零零亲原味猪肉脯65g",
+      "shortName": "零零亲原味猪肉脯65g",
+      "price": 11.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6972754487236",
+      "name": "零零亲手撕香辣猪肉脯65g",
+      "shortName": "零零亲手撕香辣猪肉脯65g",
+      "price": 11.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6972754487298",
+      "name": "零零亲虎皮凤爪卤香味100g",
+      "shortName": "零零亲虎皮凤爪卤香味100g",
+      "price": 11.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6972754487342",
+      "name": "零零亲鲜香牛肉72g",
+      "shortName": "零零亲鲜香牛肉72g",
+      "price": 11.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901035614030",
+      "name": "青岛啤酒清爽500ml*24罐整件",
+      "shortName": "青岛啤酒清爽500ml*24罐整件",
+      "price": 80.0,
+      "category": "酒类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901035610551",
+      "name": "青岛啤酒清爽8啤酒330ml",
+      "shortName": "青岛啤酒清爽8°啤酒330ml",
+      "price": 3.0,
+      "category": "酒类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901035618069",
+      "name": "青岛啤酒清爽8度500ml*4瓶装",
+      "shortName": "青岛啤酒清爽8度500ml*4瓶装",
+      "price": 16.0,
+      "category": "酒类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901035613149",
+      "name": "青岛啤酒经典500ml*3瓶装",
+      "shortName": "青岛啤酒经典500ml*3瓶装",
+      "price": 18.0,
+      "category": "酒类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901035610568",
+      "name": "青岛清爽8度330ml整件",
+      "shortName": "青岛清爽8度330ml整件",
+      "price": 60.0,
+      "category": "酒类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901035612487",
+      "name": "青岛清爽8度500ml",
+      "shortName": "青岛清爽8度500ml",
+      "price": 4.0,
+      "category": "酒类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6972119554221",
+      "name": "顺品郎红480ml",
+      "shortName": "顺品郎红480ml",
+      "price": 65.0,
+      "category": "酒类",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6934508912494",
+      "name": "飞旺八宝丝（小青丝）28g",
+      "shortName": "飞旺八宝丝（小青丝）28g",
+      "price": 1.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6934508920895",
+      "name": "飞旺八宝丝（小青丝）90g",
+      "shortName": "飞旺八宝丝（小青丝）90g",
+      "price": 2.5,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6934508910254",
+      "name": "飞旺臭干子26g",
+      "shortName": "飞旺臭干子26g",
+      "price": 1.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6934508920390",
+      "name": "飞旺长沙臭干子80g",
+      "shortName": "飞旺长沙臭干子80g",
+      "price": 2.5,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6935563276170",
+      "name": "香之派多味鸡爪33g",
+      "shortName": "香之派多味鸡爪33g",
+      "price": 2.5,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6935563285387",
+      "name": "香之派盐焗琵琶腿90g",
+      "shortName": "香之派盐焗琵琶腿90g",
+      "price": 5.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6935563260025",
+      "name": "香之派盐焗鸡腿100g",
+      "shortName": "香之派盐焗鸡腿100g",
+      "price": 7.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6935563260063",
+      "name": "香之派盐焗鸭翅根38g",
+      "shortName": "香之派盐焗鸭翅根38g",
+      "price": 2.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6935563278488",
+      "name": "香之派香辣鸭翅根38g",
+      "shortName": "香之派香辣鸭翅根38g",
+      "price": 2.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6935563279126",
+      "name": "香之派鸡爪33克（泡椒）",
+      "shortName": "香之派鸡爪33克（泡椒）",
+      "price": 2.5,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6935563220067",
+      "name": "香之派麻辣鸭腿100g",
+      "shortName": "香之派麻辣鸭腿100g",
+      "price": 7.0,
+      "category": "零食",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6938888889803",
+      "name": "香飘飘桃桃红柚400ml",
+      "shortName": "香飘飘桃桃红柚400ml",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6938888889827",
+      "name": "香飘飘泰式青柠400ml",
+      "shortName": "香飘飘泰式青柠400ml",
+      "price": 5.0,
+      "category": "饮料",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028160278",
+      "name": "黄金叶乐途",
+      "shortName": "黄金叶乐途",
+      "price": 15.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028172905",
+      "name": "黄金叶乐途硬盒884",
+      "shortName": "黄金叶乐途硬盒884",
+      "price": 22.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028167062",
+      "name": "黄金叶商鼎",
+      "shortName": "黄金叶商鼎",
+      "price": 22.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028162869",
+      "name": "黄金叶喜满堂",
+      "shortName": "黄金叶喜满堂",
+      "price": 11.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028219143",
+      "name": "黄鹤楼(硬奇景)",
+      "shortName": "黄鹤楼(硬奇景)",
+      "price": 30.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028188012",
+      "name": "黄鹤楼(硬峡谷情细支)",
+      "shortName": "黄鹤楼(硬峡谷情细支)",
+      "price": 30.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028180016",
+      "name": "黄鹤楼(软珍品)",
+      "shortName": "黄鹤楼(软珍品)",
+      "price": 65.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028181440",
+      "name": "黄鹤楼硬峡谷柔情香烟",
+      "shortName": "黄鹤楼硬峡谷柔情香烟",
+      "price": 40.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028218740",
+      "name": "黄鹤楼硬蓝中支盒",
+      "shortName": "黄鹤楼硬蓝中支盒",
+      "price": 22.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028180580",
+      "name": "黄鹤楼软蓝1x10",
+      "shortName": "黄鹤楼软蓝1x10",
+      "price": 185.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028185905",
+      "name": "黄鹤楼香烟(硬红)",
+      "shortName": "黄鹤楼香烟(硬红)",
+      "price": 22.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028187336",
+      "name": "黄鹤楼香烟8度",
+      "shortName": "黄鹤楼香烟8度",
+      "price": 20.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028180801",
+      "name": "黄鹤楼（天下名楼）",
+      "shortName": "黄鹤楼（天下名楼）",
+      "price": 16.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028218597",
+      "name": "黄鹤楼（硬1916如意）",
+      "shortName": "黄鹤楼（硬1916如意）",
+      "price": 100.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028179317",
+      "name": "黄鹤楼（硬珍品）",
+      "shortName": "黄鹤楼（硬珍品）",
+      "price": 45.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028180573",
+      "name": "黄鹤楼（软蓝）",
+      "shortName": "黄鹤楼（软蓝）",
+      "price": 20.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6901028190596",
+      "name": "黄鹤楼（软雪之景）",
+      "shortName": "黄鹤楼（软雪之景）",
+      "price": 14.0,
+      "category": "烟",
+      "image": "/default_goods.svg"
+    },
+    {
+      "id": "6907749005843",
+      "name": "龙泉壹号",
+      "shortName": "龙泉壹号",
+      "price": 40.0,
+      "category": "酒类",
+      "image": "/default_goods.svg"
     }
   ],
   "cart": []

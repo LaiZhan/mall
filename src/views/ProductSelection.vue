@@ -370,6 +370,7 @@ export default {
   display: flex;
   flex: 1;
   overflow: hidden;
+  margin-bottom: 50px;
 }
 
 .category-nav {
