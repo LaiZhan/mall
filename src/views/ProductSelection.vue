@@ -101,12 +101,18 @@
         </div>
       </div>
     </van-dialog>
+
+    <!-- 订单信息文本弹窗，无关闭按钮，5秒自动关闭 -->
+    <van-dialog v-model:show="showOrderText" title="订单信息" :show-cancel-button="true" :show-confirm-button="false"
+      close-on-click-overlay :close-on-popstate="true" class="order-text-dialog">
+      <pre class="order-text-pre">{{ copiedOrderText }}</pre>
+    </van-dialog>
   </div>
 </template>
 
 <script>
 import { ref, computed, onMounted, watch } from 'vue';
-import { Toast } from 'vant';
+import { showSuccessToast } from 'vant';
 import { getCategories, getProducts, getCart, addToCart, clearCart } from '@/services/api';
 import ProductCard from '@/components/ProductCard.vue';
 
@@ -122,6 +128,8 @@ export default {
     const showCart = ref(false);
     const showOrderSummary = ref(false);
     const isLoading = ref(true); // 添加加载状态
+    const showOrderText = ref(false);
+    const copiedOrderText = ref('');
 
     // 筛选分类列表
     const filteredCategories = computed(() => {
@@ -188,7 +196,6 @@ export default {
     const handleClearCart = async () => {
       try {
         await clearCart(); // 调用 API 清空购物车
-        cart.value = []; // 本地状态也清空
 
         // 重置所有产品的数量为0
         products.value.forEach(product => {
@@ -196,6 +203,8 @@ export default {
             product.quantity = 0;
           }
         });
+
+        await fetchCart();
 
         // 可以添加一个提示信息告知用户购物车已清空
         console.log('购物车已清空');
@@ -268,15 +277,22 @@ export default {
       // 复制到剪贴板
       navigator.clipboard.writeText(orderInfo)
         .then(() => {
-          // 显示成功提示
-          // Toast({
-          //   message: '订单信息已复制，可粘贴到微信',
-          //   type: 'success'
-          // });
-          // 关闭订单弹窗
-          showOrderSummary.value = false;
+          throw new Error("test");
+
+          // 成功时只显示 Toast 提示
+          showSuccessToast({
+            message: '订单信息已复制，请粘贴到微信',
+            type: 'success',
+            duration: 5000
+          });
+          showOrderText.value = false;
         })
         .catch(err => {
+          // 复制失败时显示订单信息弹窗，便于手动复制
+          copiedOrderText.value = orderInfo;
+          showOrderSummary.value = false;
+          showOrderText.value = true;
+
           console.error('复制失败:', err);
           // Toast({
           //   message: '复制失败，请手动复制',
@@ -322,7 +338,9 @@ export default {
       showOrderSummary,
       isLoading, // 返回加载状态
       copyOrderInfo,
-      handleClearCart
+      handleClearCart,
+      showOrderText,
+      copiedOrderText,
     };
   },
 };
@@ -447,6 +465,7 @@ export default {
   display: flex;
   align-items: center;
   gap: 5px;
+  color: #333;
 }
 
 .cart-info .van-icon {
@@ -522,6 +541,7 @@ export default {
   font-size: 14px;
   font-weight: bold;
   margin: 0;
+  color: #333;
 }
 
 .order-item-price {
@@ -534,6 +554,7 @@ export default {
   display: flex;
   justify-content: space-between;
   font-size: 13px;
+  color: gray;
 }
 
 .order-total {
@@ -543,6 +564,7 @@ export default {
   text-align: right;
   font-size: 16px;
   font-weight: bold;
+  color: #333;
 }
 
 .order-total span {
@@ -603,5 +625,45 @@ export default {
 .clear-cart-btn.van-button--danger {
   color: #ee0a24;
   border-color: #ee0a24;
+}
+</style>
+
+<style>
+.order-text-dialog .van-dialog__content {
+  padding: 0;
+}
+
+.order-text-dialog-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: #00b578;
+  padding: 18px 16px 8px 16px;
+  border-radius: 16px 16px 0 0;
+  background: #f7f8fa;
+}
+
+.order-text-pre {
+  background: #f7f8fa;
+  color: #222;
+  font-size: 12px;
+  border-radius: 10px;
+  padding: 16px 12px;
+  margin: 0 16px 18px 16px;
+  max-height: 220px;
+  overflow: auto;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  font-family: "Menlo", "Consolas", "monospace";
+  word-break: break-all;
+  white-space: pre-wrap;
+  line-height: 1.7;
+}
+
+.order-text-dialog .van-dialog {
+  border-radius: 16px;
+  max-width: 95vw;
 }
 </style>
