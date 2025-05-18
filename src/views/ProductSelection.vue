@@ -280,8 +280,6 @@ export default {
       // 复制到剪贴板
       navigator.clipboard.writeText(orderInfo)
         .then(() => {
-          throw new Error("test");
-
           // 成功时只显示 Toast 提示
           showSuccessToast({
             message: '订单信息已复制，请粘贴到微信',
