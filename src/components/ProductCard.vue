@@ -17,9 +17,13 @@
         </div>
         <div class="product-actions">
           <template v-if="product.quantity > 0">
-            <button class="quantity-btn decrease" @click="$emit('decrease-quantity', product)">-</button>
+            <van-stepper v-model="product.quantity" theme="round" min="0" max="99" button-size="20px" input-width="20px"
+              @plus="$emit('increase-quantity', product)" @minus="$emit('decrease-quantity', product)" />
+
+            <!-- <button class="quantity-btn decrease" @click="$emit('decrease-quantity', product)">-</button>
             <span class="quantity">{{ product.quantity }}</span>
-            <button class="quantity-btn increase" @click="$emit('increase-quantity', product)">+</button>
+            <button class="quantity-btn increase" @click="$emit('increase-quantity', product)">+</button> -->
+
           </template>
           <button v-else class="add-btn" @click="$emit('add-to-cart', product)">
             <van-icon name="plus" />
@@ -170,8 +174,8 @@ export default {
 }
 
 .add-btn {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   background-color: #00b578;
   color: white;
   border-radius: 50%;
@@ -180,5 +184,13 @@ export default {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  margin-top: 3px;
+}
+
+::v-deep .van-stepper__plus,
+::v-deep .van-stepper__minus {
+  border: 0;
+  color: white !important;
+  background: #00b578 !important;
 }
 </style>
