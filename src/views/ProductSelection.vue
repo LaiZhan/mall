@@ -17,7 +17,7 @@
       </div>
 
       <!-- 右侧商品列表 -->
-      <div class="product-list">
+      <div class="product-list" ref="productListRef">
         <!-- 排序选项栏 -->
         <!-- <div class="sort-bar">
           <div class="sort-item active">综合</div>
@@ -133,6 +133,7 @@ export default {
     const isLoading = ref(true); // 添加加载状态
     const showOrderText = ref(false);
     const copiedOrderText = ref('');
+    const productListRef = ref(null);
 
     // 筛选分类列表
     const filteredCategories = computed(() => {
@@ -157,6 +158,18 @@ export default {
         const matchesSearchQuery = !searchQuery.value || product.name.includes(searchQuery.value);
         return matchesCategory && matchesSearchQuery;
       });
+    });
+
+    // 滚动产品列表到顶部
+    const scrollProductListToTop = () => {
+      if (productListRef.value) {
+        productListRef.value.scrollTop = 0;
+      }
+    };
+
+    // 监听 activeCategory 变化，滚动产品列表到顶部
+    watch(activeCategory, () => {
+      scrollProductListToTop();
     });
 
     // 重置搜索框
@@ -342,6 +355,7 @@ export default {
       handleClearCart,
       showOrderText,
       copiedOrderText,
+      productListRef
     };
   },
 };
