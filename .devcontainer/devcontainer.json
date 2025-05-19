@@ -29,6 +29,6 @@
     "dockerFile": "Dockerfile", // Specify the Dockerfile to use for the container
     "runArgs": [
         "--name",
-        "mall-dev-container"
+        "jinbaole-dev-container"
     ] // Force the container name to be "mall-container"
 }

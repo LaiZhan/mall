@@ -4,10 +4,11 @@ import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import vueDevTools from "vite-plugin-vue-devtools";
 import { useHost } from "vue";
+import { viteStaticCopy } from "vite-plugin-static-copy";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:'./',
+  base: "./",
   plugins: [
     vue(),
     vueDevTools(),
@@ -16,6 +17,14 @@ export default defineConfig({
       port: 5173,
       protocol: "http",
       open: true,
+    }),
+    viteStaticCopy({
+      targets: [
+        {
+          src: "Dockerfile",
+          dest: "",
+        },
+      ],
     }),
   ],
   resolve: {
