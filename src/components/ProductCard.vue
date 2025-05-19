@@ -187,8 +187,8 @@ export default {
   margin-top: 3px;
 }
 
-::v-deep .van-stepper__plus,
-::v-deep .van-stepper__minus {
+:deep .van-stepper__plus,
+:deep .van-stepper__minus {
   border: 0;
   color: white !important;
   background: #00b578 !important;
